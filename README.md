@@ -12,7 +12,7 @@
 - Wi-fi/Bluetooth card: Qualcomm Atheros AR9485
 - Audio: Cx20590
 - Ethernet: Qualcomm Atheros AR8161
-
+- HDD: HGST HTS725050A7E630 500GB
 ## Working:
 - Wifi 
 - Something...
