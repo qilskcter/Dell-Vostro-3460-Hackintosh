@@ -15,8 +15,8 @@
 
 ## Working:
 - Wifi 
-- Somethings...(Because I'm not done yet)
+- Something...(Because I'm not done yet)
 
 ## Not working:
 - Ethernet
-- Somethings...(Because I'm not done yet)
+- Something...(Because I'm not done yet)
