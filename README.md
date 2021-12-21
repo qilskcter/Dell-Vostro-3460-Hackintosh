@@ -8,15 +8,15 @@
 
 - Intel Core i3-3110M
 - 4GB RAM
-- Graphics: Intel HD4000
+- Graphics: Intel HD4000 1366 x 768
 - Wi-fi/Bluetooth card: Qualcomm Atheros AR9485
-- Audio: ALC 255/3234 (they're the same)
+- Audio: Cx20590
 - Ethernet: Qualcomm Atheros AR8161
 
 ## Working:
 - Wifi 
-(Because I'm not done yet)
+- Somethings...(Because I'm not done yet)
 
 ## Not working:
 - Ethernet
-(Because I'm not done yet)
+- Somethings...(Because I'm not done yet)
