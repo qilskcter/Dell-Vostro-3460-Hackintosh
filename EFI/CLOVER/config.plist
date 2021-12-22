@@ -122,7 +122,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 debug=0x100 -no_compat_check keepsyms=1 -ath9485</string>
+		<string>dart=0 debug=0x100 -no_compat_check keepsyms=1 -ath9485 alcid=3</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -454,7 +454,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02229600CDF16PCB</string>
+		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -488,9 +488,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro10,2</string>
 		<key>SerialNumber</key>
-		<string>C02J3HY6DR53</string>
+		<string></string>
 		<key>SmUUID</key>
-		<string>022C8785-2BEE-445D-9EBC-B6F56F640AA0</string>
+		<string></string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>

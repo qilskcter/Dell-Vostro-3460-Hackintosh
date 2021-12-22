@@ -1,4 +1,4 @@
-# You can download my EFI at [releases](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases) tab
+# You can download my EFI at [releases](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases) tab or clone this Repo
 
 # Dell Vostro 3460 Hackintosh (Using Clover 5116)
 ## Supported macOS versions: High Sierra, Mojave, Catalina, BigSur (I don't think it's supported because I don't test. I just test this EFI on High Sierra and Mojave)
@@ -15,6 +15,8 @@
 - HDD: HGST HTS725050A7E630 500GB
 ## Working:
 - Wifi 
+- Audio
+- Trackpad (I'm fixing multi gesture)
 - Something...
 
 ## Not working:
