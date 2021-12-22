@@ -16,9 +16,13 @@
 ## Working:
 - Wifi 
 - Audio
-- TrackPad
+- Keyboard and Trackpad
+- Headphone Jack
+- Graphics
 - Something...
 
 ## Not working:
 - Ethernet
 - Something...
+# How to use this EFI?
+You download the macOS Mojave installer at [here](https://drive.google.com/file/d/1i8QDEaajCXy9L56oh5sEavWZ52wi4JnZ/view), then use MiniTool or other software to mount EFI, then use Explorer++ to access the EFI partition and then copy it.
