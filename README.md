@@ -15,6 +15,7 @@
 - HDD: HGST HTS725050A7E630 500GB
 ## Working:
 - Wifi 
+- Audio
 - Something...
 
 ## Not working:
