@@ -16,6 +16,7 @@
 ## Working:
 - Wifi 
 - Audio
+- Trackpad (I'm fixing multi gesture)
 - Something...
 
 ## Not working:
