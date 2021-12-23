@@ -27,3 +27,6 @@
 - Something...
 # How to use this EFI?
 You download the macOS Mojave installer at [here](https://drive.google.com/file/d/1i8QDEaajCXy9L56oh5sEavWZ52wi4JnZ/view), then use MiniTool or other software to mount EFI, then use Explorer++ to access the EFI partition and then copy it.
+# How to fix Wifi and Bluetooth?
+- You go to Kext folder, you can see these kext: ATH9KInjector.kext, IO80211Family_ATH.kext, IOath3kfrmwr.kext
+- Download Kext Droplet at [here](https://github.com/chris1111/Kext-Droplet) and then you put these kext in S/L/E (System/Library/Extensions) and Reboot.
