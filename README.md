@@ -19,6 +19,9 @@
 - Keyboard and Trackpad
 - Headphone Jack
 - Graphics
+- Bluetooth
+- Battery
+- Native Power Management
 - Something...
 
 ## Not working:
