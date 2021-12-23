@@ -28,6 +28,8 @@
 - Ethernet
 - Sleep
 - Something...
+## Issues
+- Trackpad settings are not showing (because my computer's battery is dead).
 # How to use this EFI?
 You download the macOS Mojave installer at [here](https://drive.google.com/file/d/1i8QDEaajCXy9L56oh5sEavWZ52wi4JnZ/view), then use MiniTool or other software to mount EFI, then use Explorer++ to access the EFI partition and then copy it.
 # How to fix Wifi and Bluetooth?
