@@ -6,13 +6,13 @@
 ![Screenshot](Screenshots/Mojave.png)
 ## Laptop specs:
 
-- Intel Core i3-3110M
-- 4GB RAM
+- CPU: Intel Core i3-3110M
+- RAM: 4GB
 - Graphics: Intel HD4000 1366 x 768
 - Wi-fi/Bluetooth card: Qualcomm Atheros AR9485
 - Audio: Cx20590
 - Ethernet: Qualcomm Atheros AR8161
-- HDD: HGST HTS725050A7E630 500GB
+- Hard Disk: HDD HGST HTS725050A7E630 500GB
 ## Working:
 - Wifi 
 - Audio
