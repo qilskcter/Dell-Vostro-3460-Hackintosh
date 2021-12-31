@@ -196,6 +196,9 @@
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
+			<string>Legacy HD1</string>
+			<string>Legacy HD2</string>
+			<string>Legacy HD3</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -208,8 +211,10 @@
 		<dict>
 			<key>Entries</key>
 			<true/>
-			<key>Tool</key>
+			<key>Legacy</key>
 			<true/>
+			<key>Tool</key>
+			<false/>
 		</dict>
 		<key>Theme</key>
 		<string>BootCamp</string>
