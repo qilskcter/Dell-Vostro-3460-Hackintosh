@@ -2,6 +2,7 @@
 
 # Dell Vostro 3460 Hackintosh (Using Clover 5116)
 ## Supported macOS versions: High Sierra, Mojave, Catalina, BigSur (I don't think it's supported because I don't test. I just test this EFI on High Sierra and Mojave).
+## Screenshots:
 ![Screenshot](Screenshots/Clover.png)
 ![Screenshot](Screenshots/HighSierra.png)
 ![Screenshot](Screenshots/Mojave.png)
