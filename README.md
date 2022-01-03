@@ -38,3 +38,4 @@ You download the macOS Mojave installer at [here](https://drive.google.com/file/
 ## On High Serria, Mojave , Catalina
 - You go to Kext folder, you can see these kext: ATH9KInjector.kext, IO80211Family_ATH.kext, IOath3kfrmwr.kext
 - Download Kext Droplet at [here](https://github.com/chris1111/Kext-Droplet) and then you put these kext in S/L/E (System/Library/Extensions) and Reboot.
+- Or you can repelace it with another wifi card
