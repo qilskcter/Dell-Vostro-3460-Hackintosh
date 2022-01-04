@@ -12,7 +12,7 @@
 - RAM: 4GB
 - Graphics: Intel HD4000 1366 x 768
 - Wi-fi/Bluetooth card: Qualcomm Atheros AR9485
-- Audio: Cx20590
+- Audio: Conexant Cx20590
 - Ethernet: Qualcomm Atheros AR8161
 - Hard Disk: HDD HGST HTS725050A7E630 500GB
 ## Working:
