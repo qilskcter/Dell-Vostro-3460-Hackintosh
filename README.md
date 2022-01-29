@@ -1,6 +1,6 @@
 # You can download my EFI at [releases](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases) tab or clone this Repo
 
-# Dell Vostro 3460 Hackintosh (Using Clover and OpenCore)
+# Dell Vostro 3460 Hackintosh (Using Clover and OpenCore) built by NLTD2010
 ## Supported macOS versions: High Sierra, Mojave, Catalina, Big Sur (OpenCore).
 ## Screenshots:
 ![Screenshot](Screenshots/Clover.png)
