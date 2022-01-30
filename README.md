@@ -27,6 +27,8 @@
 - Battery (OpenCore)
 - Native Power Management
 - Multigesture Trackpad (OpenCore)
+- Webcam
+- USB Port
 
 ## Not working:
 - Ethernet
