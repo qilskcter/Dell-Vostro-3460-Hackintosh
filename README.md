@@ -4,6 +4,7 @@
 ## Supported macOS versions: High Sierra, Mojave, Catalina, Big Sur (OpenCore).
 ## Screenshots:
 ![Screenshot](Screenshots/Clover.png)
+![Screenshot](Screenshots/rEFInd.png)
 ![Screenshot](Screenshots/HighSierra.png)
 ![Screenshot](Screenshots/Mojave.png)
 ![Screenshot](Screenshots/BigSur.png)
