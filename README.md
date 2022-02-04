@@ -31,11 +31,12 @@
 - Webcam
 - USB Port
 - Facetime and iMessage
+- Sleep (OpenCore)
 
 ## Not working:
 - Ethernet
-- Sleep
-- Something...
+- Sleep (Clover)
+
 ## Issues
 - Trackpad settings are not showing (because my computer's battery is dead only Clover).
 # How to use this EFI?
