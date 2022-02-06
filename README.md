@@ -45,7 +45,7 @@
 | ``Multigesture Trackpad``     |      ✅              |       ✅                     |                                                                          
 | ``Webcam``                    |      ✅              |       ✅                     |
 | ``USB Port``                  |      ✅              |       ✅                     |
-| ``Facetime and iMessage``     |      ✅              |       ✅                     |
+| ``Facetime and iMessage``     |      ❓              |       ❓                     |
 | ``Sleep``                     |      ✅              |       ❌                     |                                                                           |
 | ``Ethernet``                  |      ❌              |       ❌                     |
 
