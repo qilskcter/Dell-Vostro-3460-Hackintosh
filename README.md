@@ -1,5 +1,5 @@
 # <div align="center">Dell Vostro 3460 Hackintosh</div> 
-## Version
+## Bootloader versions:
 |  OpenCore             | Clover                                                                                                                   |                                                
 |  -------------------- | ------------------           |
 |       0.7.7              |       5116                     |                                                                                                    |                                                                           |
