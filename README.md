@@ -4,7 +4,9 @@
 |  -------------------- | ------------------           |
 |       0.7.7              |       5116                     |                                                                                                    |                                                                           |
 |      0.7.8              |       5139                     |                                                                                                      |
-## Supported macOS versions: High Sierra, Mojave, Catalina, Big Sur (OpenCore).
+## Supported macOS versions:
+- Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
+- OpenCore: Big Sur (11).
 ## Screenshots:
 ![Screenshot](Screenshots/Screenshot.png)
 
