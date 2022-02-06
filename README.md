@@ -3,21 +3,26 @@
 # Dell Vostro 3460 Hackintosh (Using Clover and OpenCore) built by NLTD2010
 ## Supported macOS versions: High Sierra, Mojave, Catalina, Big Sur (OpenCore).
 ## Screenshots:
-![Screenshot](Screenshots/Clover.png)
-![Screenshot](Screenshots/rEFInd.png)
-![Screenshot](Screenshots/HighSierra.png)
-![Screenshot](Screenshots/Mojave.png)
-![Screenshot](Screenshots/BigSur.png)
+![Screenshot](Screenshots/Screenshot.png)
 
 ## Laptop specs:
 
-- CPU: Intel Core i3-3110M
-- RAM: 4GB
-- Graphics: Intel HD4000 1366 x 768
-- Wi-fi/Bluetooth card: Qualcomm Atheros AR9485
-- Audio: Conexant Cx20590
-- Ethernet: Qualcomm Atheros AR8161
-- Hard Disk: HDD HGST HTS725050A7E630 500GB
+
+
+|                                           | Specifications                                                                                                                                            |
+| ----------------------------------------- | --------------------------------------------------------------------------------- |
+| ``Chipset``                               | Intel Ivy Bridge                                                               |                                                                                                                                               |
+| ``CPU``                                   | Intel Core i3-3110M |                                                                                                                        |
+| ``Memory``                                | 4GB DDR3-1600MHz, up to 8GB                                     |                                                                                                                    |
+| ``GPU``                                   | Intel HD Graphics 4000                                                       |                                                                                                                                               |                                                                                         |
+| ``Storage``                               | HDD HGST HTS725050A7E630 500GB                                              |                                                                                                                        |
+| ``Screen``                                | 14.0" 1366 x 768                                            |                                                                                                                                               |
+| ``Ethernet``                              | Qualcomm Atheros AR8161                                               |                                                                                                                                              |
+| ``WiFi and Bluetooth``                                  | Qualcomm Atheros AR9485                                                       |                                                             |
+| ``Audio``                            | Conexant Cx20590                                                   |                                                                                                                                               |
+| ``Keyboard``                              | -                                                                             |                                                                                                                                               |
+| ``Touchpad``                              | Dell Touchpad (ALPS, PS/2)                                                                |                                              |
+| ``Dimensions``<br>``Weight`` | 30mm x 345.5mm x 244mm<br>2.23kg                     |                                                                                                           |
 ## Working:
 - Wifi 
 - Audio
