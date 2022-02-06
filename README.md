@@ -3,7 +3,7 @@
 |  OpenCore             | Clover                                                                                                                   |                                                
 |  -------------------- | ------------------           |
 |       0.7.7              |       5116                     |                                                                                                    |                                                                           |
-|      0.7.8              |       5139                     |                                                                                                      |
+|      0.7.8 Beta              |       5139                     |                                                                                                      |
 ## Supported macOS versions:
 - Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
 - OpenCore: Big Sur (11).
