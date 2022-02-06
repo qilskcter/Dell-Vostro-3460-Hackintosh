@@ -18,35 +18,36 @@
 | ``Storage``                               | HDD HGST HTS725050A7E630 500GB         |                                                                                                                        |                                                                                    |
 | ``Screen``                                | 14.0" 1366 x 768                       |                                                                                                                                               |                                                                                    |
 | ``Ethernet``                              | Qualcomm Atheros AR8161                |                                                                                                                                              |                                                                                    |
-| ``WiFi and Bluetooth``                    | Qualcomm Atheros AR9485                |
-|                                                                                    |
+| ``WiFi and Bluetooth``                    | Qualcomm Atheros AR9485                |                                                                                |
 | ``Audio``                                 | Conexant Cx20590                       |                                                                                                                                               |                                                                                    |
 | ``Keyboard``                              | -                                      |                                                                                                                                               |                                                                                    |
 | ``Touchpad``                              | Dell Touchpad (ALPS, PS/2)             |
-|                                                                                    |
-| ``Dimensions``<br>``Weight``              | 30mm x 345.5mm x 244mm<br>2.23kg       |                                                                                                           |
+| ``Dimensions``<br>``Weight``              | 30mm x 345.5mm x 244mm<br>2.23kg       | 
+
+
 ## Features
 
 
-|                                           | OpenCore                                                             | Clover                                                                                                                   |
-| ----------------------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| ``Wifi and Bluetooth``                    |      ✅                                                            |       ✅                                                                                                                                            |
-| ``Audio``                                 |      ✅ | ✅                                                                                                                                               |
-| ``Keyboard and Trackpad``                 |   ✅                                      |         Not displayed Trackpad Setting                                                                                                                                      |
-| ``Headphone Jack``                         | ✅                                                       | ✅                                                                                                                                            |                                                                                         |
-| ``Graphics``                               | ✅                                              | ✅                                                                                                                              |
-| ``Battery``                                | ✅                                           |        ❌                                                                                                                                       |
-| ``Native Power Management``                                | ✅                                                          | ✅                                                                                                                                           |
-| ``Multigesture Trackpad``                | ✅                                                 | ✅                                                                                                                                              |
+|                               | OpenCore             | Clover                                                                                                                   |                                                
+| ----------------------------- | -------------------- | ------------------ |
+| ``Wifi and Bluetooth``        |      ✅              |       ✅          |                                                                                                    |                                                                           |
+| ``Audio``                     |      ✅              |       ✅          |                                                                                                      |
+| ``Keyboard and Trackpad``                 |   ✅                                      |         Not displayed Trackpad Setting                                                 
+|                                                                           |
+| ``Headphone Jack``                         | ✅                                                       | ✅                                                                     |                                                                           |
+| ``Graphics``                               | ✅                                              | ✅                                                                             |                                                                           |
+| ``Battery``                                | ✅                                           |        ❌                                                                         |                                                                           |
+| ``Native Power Management``                                | ✅                                                          | ✅                                                 |                                                                           |
+| ``Multigesture Trackpad``                | ✅                                                 | ✅                                                                           | |                                                                           |
 | ``Webcam``                                  | ✅                                                        |✅  |
-|
+|                                                                           |
 | ``USB Port``                             | ✅                          | ✅
-|
+|                                                                           |
 | ``Facetime and iMessage``                        | ✅            | ✅
-|
-| ``Sleep``                               | ✅                                                               | ❌                                                                                                                              |                                                                                                                                             |
-| ``Ethernet``                              | ❌                                                    | ❌                                                                                           |
-
+|                                                                           |
+| ``Sleep``                               | ✅                                                               | ❌                                                               |                                                                           |
+| ``Ethernet``                              | ❌                                                    | ❌                                                                   
+                                                                        
 
 # How to use this EFI?
 You download the macOS installer at [here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/), then use MiniTool or other software to mount EFI, then use Explorer++ to access the EFI partition and then copy it.
