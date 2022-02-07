@@ -1,7 +1,12 @@
-# You can download my EFI at [releases](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases) tab or clone this Repo
-
-# Dell Vostro 3460 Hackintosh (Using Clover and OpenCore) built by NLTD2010
-## Supported macOS versions: High Sierra, Mojave, Catalina, Big Sur (OpenCore).
+# <div align="center">Dell Vostro 3460 Hackintosh</div> 
+## Bootloader versions:
+|  OpenCore             | Clover                                                                                                                   |                                                
+|  -------------------- | ------------------           |
+|       0.7.7              |       5116                     |                                                                                                    |                                                                           |
+|      0.7.8 Beta              |       5139                     |                                                                                                      |
+## Supported macOS versions:
+- Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
+- OpenCore: Big Sur (11).
 ## Screenshots:
 ![Screenshot](Screenshots/Screenshot.png)
 
@@ -40,10 +45,11 @@
 | ``Multigesture Trackpad``     |      ✅              |       ✅                     |                                                                          
 | ``Webcam``                    |      ✅              |       ✅                     |
 | ``USB Port``                  |      ✅              |       ✅                     |
-| ``Facetime and iMessage``     |      ✅              |       ✅                     |
+| ``Facetime and iMessage``     |      ❓              |       ❓                     |
 | ``Sleep``                     |      ✅              |       ❌                     |                                                                           |
 | ``Ethernet``                  |      ❌              |       ❌                     |
 
+*Note: To use hotkeys, please use Karabiner software, download it [here](https://karabiner-elements.pqrs.org/?fbclid=IwAR0ubkfBVtZWxW2tXV_GAPmYFyRbIgrGUxt-Omq8AvbcSWBS7_sdN2IFQ9g)
 # How to use this EFI?
 You download the macOS installer at [here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/), then use MiniTool or other software to mount EFI, then use Explorer++ to access the EFI partition and then copy it.
 # How to fix Wifi and Bluetooth?
