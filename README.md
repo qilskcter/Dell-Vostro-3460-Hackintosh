@@ -49,6 +49,7 @@
 | ``Sleep``                     |      ✅              |       ❌                     |                                                                           |
 | ``Ethernet``                  |      ❌              |       ❌                     |
 
+*Note: To use hotkeys, please use Karabiner software, download it [here](https://karabiner-elements.pqrs.org/?fbclid=IwAR0ubkfBVtZWxW2tXV_GAPmYFyRbIgrGUxt-Omq8AvbcSWBS7_sdN2IFQ9g)
 # How to use this EFI?
 You download the macOS installer at [here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/), then use MiniTool or other software to mount EFI, then use Explorer++ to access the EFI partition and then copy it.
 # How to fix Wifi and Bluetooth?
