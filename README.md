@@ -19,11 +19,15 @@
 | ``CPU``| Intel Core i3-3110M|
 | ``Memory``| 4GB DDR3-1600MHz, up to 8GB|
 | ``GPU``| Intel HD Graphics 4000|
-| ``Storage``| SSD Lexar NS100 128GB|                                                                                                                        
-| ``Screen``| 14.0" 1366 x 768|                                                                                                                                      | ``Ethernet``| Qualcomm Atheros AR8161|                                                                                                                             | ``WiFi and Bluetooth``| Qualcomm Atheros AR9485|                                                                 
-| ``Audio``| Conexant Cx20590|                                                                                                                                        | ``Keyboard``| - |
+| ``Storage``| SSD Lexar NS100 128GB|
+| ``Screen``| 14.0" 1366 x 768|
+| ``Ethernet``| Qualcomm Atheros AR8161|
+| ``WiFi and Bluetooth``| Qualcomm Atheros AR9485|
+| ``Audio``| Conexant Cx20590|
+| ``Keyboard``| - |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2)|
-| ``Dimensions``<br>``Weight``| 30mm x 345.5mm x 244mm<br>2.23kg| 
+| ``Dimensions``| 30mm x 345.5mm x 244mm|
+|``Weight``|2.23kg| 
 
 ## Features
 |                               | OpenCore             | Clover|
