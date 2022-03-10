@@ -29,7 +29,7 @@
 | ``Dimensions``| 30mm x 345.5mm x 244mm|
 |``Weight``|2.23kg| 
 
-## Features
+## Features:
 |                               | OpenCore             | Clover|
 | ----------------------------- | -------------------- | ------------------|
 | ``Wifi and Bluetooth``|✅|✅|
@@ -53,3 +53,6 @@ You download the macOS installer from Olarila [here](https://www.olarila.com/top
 - Go to the Kexts folder, you can see these kexts: ATH9KInjector.kext, IO80211Family_ATH.kext, IOath3kfrmwr.kext
 - Download Kext Droplet [here](https://github.com/chris1111/Kext-Droplet), open it up then drag the aforementioned kexts into the window to put it into S/L/E (System/Library/Extensions)
 - Or you can just replace the Wi-Fi card
+# Thanks:
+- [NLTD2010](https://github.com/NLTD2010) for my EFI folders.
+- [khanhmuy](https://github.com/khanhmuy) for my README file.
