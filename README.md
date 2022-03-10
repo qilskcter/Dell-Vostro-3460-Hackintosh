@@ -1,18 +1,18 @@
 # <div align="center">Dell Vostro 3460 Hackintosh</div> 
-## Bootloader versions:
+## Bootloader versions
 |OpenCore|Clover|
 |--------|------|
 |0.7.7|5116|
 |0.7.8 Beta|5139|
 |0.7.9 Beta|-|
 |0.8.0 Beta|-|
-## Supported macOS versions:
+## Supported macOS versions
 - Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
 - OpenCore: Big Sur (11).
-## Screenshots:
+## Screenshots
 ![Screenshot](Screenshots/wall.png)
 
-## Laptop specs:
+## Laptop specs
 |                     | Specifications| 
 | ---------------------------- | ---------------------- |
 | ``Chipset``| Intel Ivy Bridge|
@@ -52,4 +52,7 @@ You download the macOS installer from Olarila [here](https://www.olarila.com/top
 # Fixing Wi-Fi and Bluetooth support
 - Go to the Kexts folder, you can see these kexts: ATH9KInjector.kext, IO80211Family_ATH.kext, IOath3kfrmwr.kext
 - Download Kext Droplet [here](https://github.com/chris1111/Kext-Droplet), open it up then drag the aforementioned kexts into the window to put it into S/L/E (System/Library/Extensions)
-- Or you can just replace the Wi-Fi card
+- Or you can just replace the Wi-Fi card.
+# Thanks
+- [NLTD2010](https://github.com/NLTD2010) for my EFI folders.
+- [khanhmuy](https://github.com/khanhmuy) for my README file.
