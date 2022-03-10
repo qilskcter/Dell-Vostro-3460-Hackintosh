@@ -44,7 +44,7 @@
 | ``USB Port``|✅|✅|
 | ``Facetime and iMessage``|✅|✅|
 | ``Sleep``|✅|❌|
-| ``Ethernet``|❌|❌|
+| ``Ethernet``|✅|✅|
 
 ```Note```: To use hotkeys, please use Karabiner, download it [here](https://karabiner-elements.pqrs.org/?fbclid=IwAR0ubkfBVtZWxW2tXV_GAPmYFyRbIgrGUxt-Omq8AvbcSWBS7_sdN2IFQ9g)
 # How to use this EFI?
