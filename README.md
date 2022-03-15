@@ -15,8 +15,8 @@
 ## Laptop specs
 |                     | Specifications| 
 | ---------------------------- | ---------------------- |
-| ``Chipset``| Intel Ivy Bridge 2.40GHz|
-| ``CPU``| Intel Core i3-3110M|
+| ``Chipset``| Intel Ivy Bridge|
+| ``CPU``| Intel Core i3-3110M 2.40GHz|
 | ``Memory``| 4GB DDR3-1600MHz, up to 8GB|
 | ``GPU``| Intel HD Graphics 4000|
 | ``Storage``| SSD Lexar NS100 128GB|
