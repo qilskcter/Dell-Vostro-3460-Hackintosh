@@ -15,7 +15,7 @@
 ## Laptop specs
 |                     | Specifications| 
 | ---------------------------- | ---------------------- |
-| ``Chipset``| Intel Ivy Bridge|
+| ``Chipset``| Intel Ivy Bridge 2.40GHz|
 | ``CPU``| Intel Core i3-3110M|
 | ``Memory``| 4GB DDR3-1600MHz, up to 8GB|
 | ``GPU``| Intel HD Graphics 4000|
