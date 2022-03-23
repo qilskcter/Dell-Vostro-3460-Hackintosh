@@ -56,4 +56,4 @@ You download the macOS installer from Olarila [here](https://www.olarila.com/top
 # Thanks
 - [NLTD2010](https://github.com/NLTD2010) for my EFI folders.
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
-- Võ Nguyễn HoangLong for [HeaVietNam](http://heavietnam.ga/) guide.
+- [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) for [HeaVietNam](http://heavietnam.ga/) guide.
