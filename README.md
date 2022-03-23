@@ -49,7 +49,7 @@
 ```Note```: To use hotkeys, please use Karabiner, download it [here](https://karabiner-elements.pqrs.org/?fbclid=IwAR0ubkfBVtZWxW2tXV_GAPmYFyRbIgrGUxt-Omq8AvbcSWBS7_sdN2IFQ9g)
 # How to use this EFI?
 You download the macOS installer from Olarila [here](https://www.olarila.com/topic/6278-hackintosh-and-macintosh-olarila-vanilla-images-macos/) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
-# Fixing Wi-Fi and Bluetooth support
+# Fixing Wi-Fi and Bluetooth support (Clover)
 - Go to the Kexts folder, you can see these kexts: ATH9KInjector.kext, IO80211Family_ATH.kext, IOath3kfrmwr.kext
 - Download Kext Droplet [here](https://github.com/chris1111/Kext-Droplet), open it up then drag the aforementioned kexts into the window to put it into S/L/E (System/Library/Extensions)
 - Or you can just replace the Wi-Fi card.
