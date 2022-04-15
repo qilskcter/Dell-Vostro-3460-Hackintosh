@@ -8,7 +8,7 @@
 |0.8.0 Beta|-|
 ## Supported macOS versions
 - Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
-- OpenCore: Big Sur (11).
+- OpenCore: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15), Big Sur (11).
 ## Screenshots
 ![Screenshot](Screenshots/wall.png)
 
