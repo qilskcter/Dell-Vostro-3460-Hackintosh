@@ -10,7 +10,7 @@
 - Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
 - OpenCore: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15), Big Sur (11).
 ## Screenshots
-![Screenshot](Screenshots/wall.png)
+![Screenshot](Screenshots/BigSur.png)
 
 ## Laptop specs
 |                     | Specifications| 
