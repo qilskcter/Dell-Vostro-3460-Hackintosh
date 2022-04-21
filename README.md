@@ -29,7 +29,7 @@
 | ``Dimensions``| 30mm x 345.5mm x 244mm|
 |``Weight``|2.23kg| 
 
-![Screenshot](Screenshots/Specs.png)
+![Screenshot](Screenshots/specs.png)
 ## Features
 |                               | OpenCore             | Clover|
 | ----------------------------- | -------------------- | ------------------|
