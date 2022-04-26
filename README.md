@@ -59,6 +59,9 @@ You download the macOS installer from Olarila [here](https://www.olarila.com/top
 - Go to the Kexts folder, you can see these kexts: ATH9KInjector.kext, IO80211Family_ATH.kext, IOath3kfrmwr.kext
 - Download Kext Droplet [here](https://github.com/chris1111/Kext-Droplet), open it up then drag the aforementioned kexts into the window to put it into S/L/E (System/Library/Extensions)
 - Or you can just replace the Wi-Fi card.
+# UPDATE
+This is my SSD after running macOS, It goes down from 100% to 98% AFTER 2 MONTHS, you ~~should~~ MUST UPDATE RAM TO 8GB to USE BETTER or don't use macOS.
+![Screenshot](Screenshots/something.png)
 # Thanks
 - [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
