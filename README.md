@@ -60,7 +60,7 @@ You download the macOS installer from Olarila [here](https://www.olarila.com/top
 - Download Kext Droplet [here](https://github.com/chris1111/Kext-Droplet), open it up then drag the aforementioned kexts into the window to put it into S/L/E (System/Library/Extensions)
 - Or you can just replace the Wi-Fi card.
 # UPDATE
-This is my SSD after running macOS, It goes down from 100% to 98% AFTER 2 MONTHS, you ~~should~~ MUST UPDATE RAM TO 8GB to USE BETTER or don't use macOS.
+This is my SSD after running macOS, it goes down from 100% to 98% AFTER 2 MONTHS, ONLY 2 MONTHS. You ~~should~~ MUST UPDATE RAM TO 8GB to USE BETTER or don't use macOS.
 
 ![Screenshot](Screenshots/something.png)
 # Thanks
