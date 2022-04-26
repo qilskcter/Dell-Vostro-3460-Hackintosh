@@ -61,6 +61,7 @@ You download the macOS installer from Olarila [here](https://www.olarila.com/top
 - Or you can just replace the Wi-Fi card.
 # UPDATE
 This is my SSD after running macOS, It goes down from 100% to 98% AFTER 2 MONTHS, you ~~should~~ MUST UPDATE RAM TO 8GB to USE BETTER or don't use macOS.
+
 ![Screenshot](Screenshots/something.png)
 # Thanks
 - [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
