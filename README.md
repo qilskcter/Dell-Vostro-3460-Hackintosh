@@ -11,7 +11,7 @@
 - Clover: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15). 
 - OpenCore: Sierra (10.12), High Sierra (10.13), Mojave (10.14), Catalina (10.15), Big Sur (11), Monterey (12) (Maybe, if you want to run Monterey, you must replace the fucking wifi card or use with no network. SMBios ```MacbookPro12,1``` will help you patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111).
 ## Screenshots
-![Screenshot](Screenshots/Wall.png)
+![Screenshot](Screenshots/ScreenShot.png)
 
 ## Laptop specs
 |                     | Specifications| 
