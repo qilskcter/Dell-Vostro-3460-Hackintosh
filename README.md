@@ -9,7 +9,7 @@
 - Mojave
 - Catalina
 - Big Sur (Use SMBIOS ```MacBookPro11,5```)
-- Monterey (OpenCore only, if you want to run Monterey, you must replace the fucking wifi card or use with no network. SMBIOS ```MacbookPro12,1``` will help you patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111)
+- Monterey (OpenCore only, if you want to run Monterey, you must replace the fucking wifi card or use with no network. SMBIOS ```MacBookPro12,1``` will help you patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111)
 ## Screenshots
 ![Screenshot](Screenshots/Monterey.png)
 
