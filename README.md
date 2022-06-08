@@ -20,7 +20,8 @@
 | ``CPU``| Intel Core i3-3110M 2.40GHz|
 | ``Memory``| 4GB DDR3-1600MHz, up to 8GB|
 | ``GPU``| Intel HD Graphics 4000|
-| ``Storage``| SSD Lexar NS100 128GB|
+| ``Disk 0``| SSD Lexar NS100 128GB|
+| ``Disk 1``|HDD HGST HTS725050A7E630 500GB|
 | ``Screen``| 14.0" 1366 x 768|
 | ``Ethernet``| Qualcomm Atheros AR8161|
 | ``WiFi and Bluetooth``| Qualcomm Atheros AR9485|
