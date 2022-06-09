@@ -57,10 +57,6 @@ If you want your fucking Display like RealMac, you can use [one-key-hidpi](https
 ![Screenshot](Screenshots/Display_2.png)
 # How to use this EFI ?
 You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/image/index.html) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
-# UPDATE
-This is my SSD after running macOS, it goes down from 100% to 98% AFTER 2 MONTHS, ONLY 2 MONTHS. You ~~should~~ MUST UPDATE RAM TO 8GB to USE BETTER or don't use macOS.
-
-![Screenshot](Screenshots/something.png)
 # Thanks
 - [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
