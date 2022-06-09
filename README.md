@@ -1,8 +1,10 @@
 # <div align="center">Dell Vostro 3460 Hackintosh</div> 
 ## Bootloader versions
+
 |OpenCore|Clover|
 |--------|------|
-|0.8.1 Mod|5146|
+|0.8.1 Mod|5146| 
+
 ## Supported macOS versions
 - Sierra
 - High Sierra
@@ -14,6 +16,9 @@
 ![Screenshot](Screenshots/Monterey.png)
 
 ## Laptop specs
+
+<div align="center">
+  
 |                     | Specifications| 
 | ---------------------------- | ---------------------- |
 | ``Chipset``| Intel Ivy Bridge|
@@ -31,8 +36,17 @@
 | ``Dimensions``| 30mm x 345.5mm x 244mm|
 |``Weight``|2.23kg| 
 
+</div> 
+<div align="center">
+  
 ![Screenshot](Screenshots/specs.png)
+  
+</div> 
+
 ## Features
+
+<div align="center">
+
 |                               | OpenCore             | Clover|
 | ----------------------------- | -------------------- | ------------------|
 | ``Wifi and Bluetooth``|✅|✅|
@@ -50,11 +64,25 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
+</div> 
+
 # Post-Install
 After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look right (definitely not calibrated or anything but yeah, not an oversaturated mess)
+
+<div align="center">
+
 ![Screenshot](Screenshots/Display.png)
+  
+</div>
+
 If you want your fucking Display like RealMac, you can use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) (not recommended)
+
+<div align="center">
+
 ![Screenshot](Screenshots/Display_2.png)
+  
+</div>
+
 # How to use this EFI ?
 You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/image/index.html) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
 # Thanks
