@@ -25,8 +25,8 @@
 | ``Screen``| 14.0" 1366 x 768|
 | ``Ethernet``| Qualcomm Atheros AR8161|
 | ``WiFi and Bluetooth``| Qualcomm Atheros AR9485|
-| ``Audio``| Conexant Cx20590|
-| ``Keyboard``| - |
+| ``Audio``| Conexant Cx20590 (alcid=14)|
+| ``Keyboard``| Requied patching DSDT for brightness key |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2)|
 | ``Dimensions``| 30mm x 345.5mm x 244mm|
 |``Weight``|2.23kg| 
