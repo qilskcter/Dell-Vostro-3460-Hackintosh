@@ -13,12 +13,15 @@
 - Big Sur (Use SMBIOS ```MacBookPro11,5```)
 - Monterey (OpenCore only, if you want to run Monterey, you must replace the fucking wifi card or use with no network. SMBIOS ```MacBookPro12,1``` will help you patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111)
 ## Screenshots
-![Screenshot](Screenshots/Monterey.png)
-
-## Laptop specs
 
 <div align="center">
   
+![Screenshot](Screenshots/Monterey.png)
+  
+</div>
+
+## Laptop specs
+ 
 |                     | Specifications| 
 | ---------------------------- | ---------------------- |
 | ``Chipset``| Intel Ivy Bridge|
@@ -35,17 +38,15 @@
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2)|
 | ``Dimensions``| 30mm x 345.5mm x 244mm|
 |``Weight``|2.23kg| 
-
-</div> 
+  
 <div align="center">
   
 ![Screenshot](Screenshots/specs.png)
   
-</div> 
+</div>
 
 ## Features
 
-<div align="center">
 
 |                               | OpenCore             | Clover|
 | ----------------------------- | -------------------- | ------------------|
@@ -64,21 +65,19 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
-</div> 
-
 # Post-Install
 After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look right (definitely not calibrated or anything but yeah, not an oversaturated mess)
 
 <div align="center">
-
-![Screenshot](Screenshots/Display.png)
   
+![Screenshot](Screenshots/Display.png)
+
 </div>
 
 If you want your fucking Display like RealMac, you can use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) (not recommended)
 
 <div align="center">
-
+  
 ![Screenshot](Screenshots/Display_2.png)
   
 </div>
@@ -89,4 +88,4 @@ You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/
 - [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
 - [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) for [HeaVietNam](http://heavietnam.ga/) guide.
-- [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) for help me fixed hotkeys.
+- [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) for help me fixed something.
