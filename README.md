@@ -2,7 +2,7 @@
 ## Bootloader versions
 |OpenCore|Clover|
 |--------|------|
-|0.8.1 Beta|5146|
+|0.8.1 Mod|5146|
 ## Supported macOS versions
 - Sierra
 - High Sierra
