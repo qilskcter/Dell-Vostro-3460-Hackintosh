@@ -221,24 +221,20 @@
 				<data>LAEAAA==</data>
 				<key>backlight-smoother-lowerbound</key>
 				<data>MQAAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-enable</key>
-				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con2-enable</key>
+				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-con3-enable </key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-con0-alldata</key>
-				<data>BQEAAAAIAAAwAAAA</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AgAAAAAIAAAHBAAA</data>
-				<key>framebuffer-con2-alldata</key>
-				<data>AwAAAAAIAACBAAAA</data>
-				<key>framebuffer-con3-alldata</key>
-				<data>BAAAAAAIAACBAAAA</data>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>model</key>
+				<string>NVIDIA GeForce GT 630M</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
