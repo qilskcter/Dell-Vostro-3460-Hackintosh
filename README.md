@@ -17,9 +17,19 @@
 <div align="center">
   
 ![Screenshot](Screenshots/Monterey.png)
-![Screenshot](Screenshots/Mavericks.png)
-  
+   
 </div>
+<details>
+		<summary>Other OS</summary>
+      <br>
+  
+![Screenshot](Screenshots/Mavericks.png)
+![Screenshot](Screenshots/HighSierra.png)
+![Screenshot](Screenshots/Mojave.png)
+![Screenshot](Screenshots/Catalina.png)
+![Screenshot](Screenshots/BigSur.png)
+  
+</details>
 
 ## Laptop specs
  
