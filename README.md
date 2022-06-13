@@ -17,6 +17,7 @@
 <div align="center">
   
 ![Screenshot](Screenshots/Monterey.png)
+![Screenshot](Screenshots/Mavericks.png)
   
 </div>
 
