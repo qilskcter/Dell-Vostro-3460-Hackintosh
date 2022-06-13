@@ -6,6 +6,9 @@
 |0.8.1 Mod|5146| 
 
 ## Supported macOS versions
+- Mavericks
+- Yosemite
+- El Captain
 - Sierra
 - High Sierra
 - Mojave
