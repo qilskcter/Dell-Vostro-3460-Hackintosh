@@ -23,7 +23,7 @@
    
 </div>
 <details>
-		<summary>Other OS</summary>
+		<summary>Other OSes</summary>
       <br>
   
 ![Screenshot](Screenshots/Mavericks.png)
