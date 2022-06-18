@@ -38,20 +38,20 @@
  
 |                     | Specifications| 
 | ---------------------------- | ---------------------- |
-| ``Chipset``| Intel Ivy Bridge|
-| ``CPU``| Intel Core i3-3110M 2.40GHz|
-| ``Memory``| 4GB DDR3-1600MHz, up to 8GB|
-| ``GPU``| Intel HD Graphics 4000|
-| ``Disk 0``| SSD Lexar NS100 128GB|
-| ``Disk 1``|HDD HGST HTS725050A7E630 500GB|
-| ``Screen``| 14.0" 1366 x 768|
-| ``Ethernet``| Qualcomm Atheros AR8161|
-| ``WiFi and Bluetooth``| Qualcomm Atheros AR9485|
-| ``Audio``| Conexant Cx20590 (alcid=14)|
+| ``Chipset``| Intel Ivy Bridge |
+| ``CPU``| Intel Core i3-3110M 2.40GHz |
+| ``Memory``| 8GB DDR3-1600MHz |
+| ``GPU``| Intel HD Graphics 4000 |
+| ``Disk 0``| SSD Lexar NS100 128GB |
+| ``Disk 1``| HDD HGST HTS725050A7E630 500GB |
+| ``Screen``| 14.0" 1366 x 768 |
+| ``Ethernet``| Qualcomm Atheros AR8161 |
+| ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 |
+| ``Audio``| Conexant Cx20590 (alcid=14) |
 | ``Keyboard``| Requied patching DSDT for brightness key |
-| ``Touchpad``| Dell Touchpad (ALPS, PS/2)|
-| ``Dimensions``| 30mm x 345.5mm x 244mm|
-|``Weight``|2.23kg| 
+| ``Touchpad``| Dell Touchpad (ALPS, PS/2) |
+| ``Dimensions``| 30mm x 345.5mm x 244mm |
+|``Weight``| 2.23kg | 
   
 <div align="center">
   
