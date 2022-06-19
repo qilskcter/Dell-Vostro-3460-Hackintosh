@@ -14,7 +14,7 @@
 - Mojave
 - Catalina
 - Big Sur (Use SMBIOS ```MacBookPro11,5```)
-- Monterey (OpenCore only. SMBIOS ```MacBookPro12,1``` will help you patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111)
+- Monterey (OpenCore only. And patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111)
 ## Screenshots
 
 <div align="center">
