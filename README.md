@@ -40,7 +40,7 @@
 | ---------------------------- | ---------------------- |
 | ``Chipset``| Intel Ivy Bridge |
 | ``CPU``| Intel Core i3-3110M 2.40GHz |
-| ``Memory``| 8GB DDR3-1600MHz |
+| ``Memory``| 8GB DDR3L-1600MHz |
 | ``GPU``| Intel HD Graphics 4000 |
 | ``Disk 0``| SSD Lexar NS100 128GB |
 | ``Disk 1``| HDD HGST HTS725050A7E630 500GB |
