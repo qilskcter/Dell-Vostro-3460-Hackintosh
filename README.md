@@ -48,7 +48,7 @@
 | ``Ethernet``| Qualcomm Atheros AR8161 |
 | ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 |
 | ``Audio``| Conexant Cx20590 (alcid=14) |
-| ``Keyboard``| Requied patching DSDT for brightness key |
+| ``Keyboard``| - |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2) |
 | ``Dimensions``| 30mm x 345.5mm x 244mm |
 |``Weight``| 2.23kg | 
