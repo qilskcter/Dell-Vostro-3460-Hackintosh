@@ -64,7 +64,8 @@
 
 |                               | OpenCore             | Clover|
 | ----------------------------- | -------------------- | ------------------|
-| ``Wifi and Bluetooth``|✅|✅|
+| ``Wifi (use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases))``|✅|✅|
+| ``Bluetooth (use [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/))``|✅|✅|
 | ``Audio``|✅|✅|
 | ``Keyboard and Trackpad``|✅|✅|
 | ``Headphone Jack``|✅|✅|
