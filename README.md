@@ -14,7 +14,7 @@
 - Mojave
 - Catalina
 - Big Sur (Use SMBIOS ```MacBookPro11,5```)
-- Monterey (OpenCore only. And patch iGPU with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111))
+- Monterey (OpenCore only)
 ## Screenshots
 
 <div align="center">
@@ -36,22 +36,22 @@
 
 ## Laptop specs
  
-|                     | Specifications| 
-| ---------------------------- | ---------------------- |
-| ``Chipset``| Intel Ivy Bridge |
-| ``CPU``| Intel Core i3-3110M 2.40GHz |
-| ``Memory``| 8GB DDR3-1600MHz |
-| ``GPU``| Intel HD Graphics 4000 |
-| ``Disk 0``| SSD Lexar NS100 128GB |
-| ``Disk 1``| HDD HGST HTS725050A7E630 500GB |
-| ``Screen``| 14.0" 1366 x 768 |
-| ``Ethernet``| Qualcomm Atheros AR8161 |
-| ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 |
-| ``Audio``| Conexant Cx20590 (alcid=14) |
-| ``Keyboard``| - |
-| ``Touchpad``| Dell Touchpad (ALPS, PS/2) |
-| ``Dimensions``| 30mm x 345.5mm x 244mm |
-|``Weight``| 2.23kg | 
+|                     | Specifications| Note |
+| ---------------------------- | ---------------------- |------------------|
+| ``Chipset``| Intel Ivy Bridge |   |
+| ``CPU``| Intel Core i3-3110M 2.40GHz |    |
+| ``Memory``| 8GB DDR3-1600MHz |   |
+| ``GPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111) in Monterey. |
+| ``Disk 0``| SSD Lexar NS100 128GB |      |
+| ``Disk 1``| HDD HGST HTS725050A7E630 500GB |     |
+| ``Screen``| 14.0" 1366 x 768 |    |
+| ``Ethernet``| Qualcomm Atheros AR8161 |    |
+| ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 | Use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) for Wifi and [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) for Bluetooth. | 
+| ``Audio``| Conexant Cx20590 | alcid=14 |
+| ``Keyboard``| - |      |
+| ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Use [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
+| ``Dimensions``| 30mm x 345.5mm x 244mm |     |
+|``Weight``| 2.23kg |     |
   
 <div align="center">
   
@@ -64,8 +64,7 @@
 
 |                               | OpenCore             | Clover|
 | ----------------------------- | -------------------- | ------------------|
-| ``Wifi (use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases))``|✅|✅|
-| ``Bluetooth (use [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/))``|✅|✅|
+| ``Wifi and Bluetooth``|✅|✅|
 | ``Audio``|✅|✅|
 | ``Keyboard and Trackpad``|✅|✅|
 | ``Headphone Jack``|✅|✅|
