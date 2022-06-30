@@ -75,7 +75,7 @@
 | ``Webcam``|✅|✅|
 | ``USB Port``|✅|✅|
 | ``Facetime and iMessage``|✅|✅|
-| ``Sleep``|✅|✅|
+| ``Sleep``|❌|❌|
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
