@@ -39,15 +39,15 @@
 |                     | Specifications| Note |
 | ---------------------------- | ---------------------- |------------------|
 | ``Chipset``| Intel 7 Series/C210 Series Chipset |   |
-| ``CPU``| Intel Core i3-3110M 2.40GHz |    |
-| ``Memory``| 8GB DDR3-1600MHz |   |
+| ``CPU``| Intel Core i3-3110M 2.40GHz | Use [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
+| ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 and DDR3L |
 | ``GPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111) in Monterey. |
-| ``Disk 0``| SSD Lexar NS100 128GB |      |
-| ``Disk 1``| HDD HGST HTS725050A7E630 500GB |     |
+| ``Disk 0``| SSD Lexar NS100 128GB | Dualbooting Windows and macOS |
+| ``Disk 1``| HDD HGST HTS725050A7E630 500GB | Data saving |
 | ``Screen``| 14.0" 1366 x 768 |    |
 | ``Ethernet``| Qualcomm Atheros AR8161 | Use [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2) |
 | ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Replace from AR9485) Use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) for Wifi and [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) for Bluetooth. | 
-| ``Audio``| Conexant Cx20590 | alcid=14 |
+| ``Audio``| Conexant Cx20590 | Add `alcid=27` to boot-arg or add layout-id to DeviceProperties |
 | ``Keyboard``| - | Requied patching SSDT for brightness key |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Use [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
 | ``Dimensions``| 30mm x 345.5mm x 244mm |     |
