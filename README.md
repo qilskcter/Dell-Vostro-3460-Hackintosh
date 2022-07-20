@@ -88,7 +88,7 @@ After installation, open System Preferences and go to Displays -> Color, uncheck
 
 </div>
 
-If you want your fucking Display like RealMac, you can use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) (not recommended)
+If you want your Display like RealMac, you can use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) (not recommended)
 
 <div align="center">
   
