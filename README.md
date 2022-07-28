@@ -13,7 +13,7 @@
 - High Sierra
 - Mojave
 - Catalina
-- Big Sur (Use SMBIOS ```MacBookPro11,5```)
+- Big Sur (Use SMBIOS ```MacBookPro11,1```)
 - Monterey (OpenCore only)
 ## Screenshots
 
@@ -99,6 +99,8 @@ If you want your Display like RealMac, you can use [one-key-hidpi](https://githu
 # How to use this EFI ?
 You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/image/index.html) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
 # Thanks
+- [Apple](https://apple.com) for macOS.
+- Acidanthera, SkyrilHD, USBToolBox, etc. for all the kext.
 - [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
 - [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) for [HeaVietNam](http://heavietnam.ga/) guide.
