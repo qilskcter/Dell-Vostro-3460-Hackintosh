@@ -1,4 +1,7 @@
 # <div align="center">Dell Vostro 3460 Hackintosh</div> 
+
+<h5>Nếu bạn là người Việt Nam, hãy đọc <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">bản Tiếng Việt 🇻🇳</a></h5> 
+
 ## Bootloader versions
 
 |OpenCore|Clover|
