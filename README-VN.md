@@ -14,7 +14,7 @@
 - Mojave
 - Catalina
 - Big Sur (⚠️ Dùng SMBIOS ```MacBookPro11,1```)
-- Monterey (OpenCore)
+- Monterey (chỉ OpenCore)
 ## Ảnh Chụp Màn Hình
 
 <div align="center">
@@ -36,23 +36,23 @@
 
 ## Thông Tin Laptop
  
-|                     | Thông tin chi tiết| Ghi chú |
+|                     | Thông tin chi tiết | Ghi chú |
 | ---------------------------- | ---------------------- |------------------|
 | ``Chipset``| Intel 7 Series/C210 Series Chipset. |   |
 | ``CPU``| Intel Core i3-3110M 2.40GHz | Dùng [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
-| ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 và DDR3L. |
+| ``Bộ nhớ``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 và DDR3L. |
 | ``iGPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) tạo bởi [chris1111](https://github.com/chris1111) trong Monterey. |
-| ``dGPU``| NVIDIA GeForce GT630M | Chỉ có ở i5-3210M. |
-| ``Disk 0``| SSD Lexar NS100 128GB | Dualboot Windows và macOS. |
-| ``Disk 1``| HDD HGST HTS725050A7E630 500GB | Dùng lưu DATA. |
-| ``Screen``| 14.0" 1366 x 768 |    |
+| ``dGPU``| NVIDIA GeForce GT 630M | Chỉ có ở phiên bản i5-3210M. |
+| ``Ổ lưu trữ 0``| SSD Lexar NS100 128GB | Dualboot Windows và macOS. |
+| ``Ổ lưu trữ 1``| HDD HGST HTS725050A7E630 500GB | Dùng lưu dữ liệu. |
+| ``Màn hình``| 14.0" 1366 x 768 |    |
 | ``Ethernet``| Qualcomm Atheros AR8161 | Dùng [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2). |
-| ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Card cũ là AR9485). Dùng [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) cho Wifi và [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) cho Bluetooth. | 
-| ``Audio``| Conexant Cx20590 | Thêm `alcid=27` trong boot-args. |
-| ``Keyboard``| - | Yêu cầu patch SSDT cho brightness key. |
+| ``WiFi và Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Thay thế từ AR9485). Dùng [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) cho Wifi và [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) cho Bluetooth. | 
+| ``Âm thanh``| Conexant Cx20590 | Thêm `alcid=27` trong boot-arg hoặc vào DeviceProperties. |
+| ``Bàn phím``| - | Yêu cầu patch SSDT cho phím tăng giảm độ sáng. |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Dùng [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
-| ``Dimensions``| 30mm x 345.5mm x 244mm |     |
-|``Weight``| 2.23kg |     |
+| ``Kích thước``| 30mm x 345.5mm x 244mm |     |
+|``Cân nặng``| 2.23kg |     |
   
 <div align="center">
   
