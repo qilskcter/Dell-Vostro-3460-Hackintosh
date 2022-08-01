@@ -48,7 +48,7 @@
 | ``Màn hình``| 14.0" 1366 x 768 |    |
 | ``Ethernet``| Qualcomm Atheros AR8161 | Dùng [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2). |
 | ``WiFi và Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Thay thế từ AR9485). Dùng [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) cho Wifi và [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) cho Bluetooth. | 
-| ``Âm thanh``| Conexant Cx20590 | Thêm `alcid=27` trong boot-arg hoặc vào DeviceProperties. |
+| ``Âm thanh``| Conexant Cx20590 | Thêm `alcid=14` trong boot-arg hoặc vào DeviceProperties. |
 | ``Bàn phím``| - | Yêu cầu patch SSDT cho phím tăng giảm độ sáng. |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Dùng [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
 | ``Kích thước``| 30mm x 345.5mm x 244mm |     |
