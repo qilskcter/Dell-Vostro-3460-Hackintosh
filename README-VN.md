@@ -108,5 +108,3 @@ Tải bộ cài tại [HeaVietNam](https://heavietnam.github.io/image/index.html
 - [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) vì [HeaVietNam](http://heavietnam.ga/) guide.
 - [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) vì đã giúp tôi fix một số thứ.
 - [kleqing](https://github.com/kleqing) vì đã giúp tôi fix sleep trên Monterey.
-
-- Sierra
