@@ -109,3 +109,4 @@ You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
 - [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) for [HeaVietNam](http://heavietnam.ga/) guide.
 - [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) for help me fixed something.
+- [kleqing](https://github.com/kleqing) for help me fixed sleep in Monterey.
