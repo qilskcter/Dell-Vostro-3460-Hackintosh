@@ -15,7 +15,7 @@
 ## Supported macOS (OS X) Versions
 - Mavericks
 - Yosemite
-- El Captain
+- El Capitan
 - Sierra
 - High Sierra
 - Mojave
