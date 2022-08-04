@@ -6,13 +6,13 @@
 
 <h5>- Nếu bạn là người Việt Nam, hãy đọc <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">bản Tiếng Việt 🇻🇳</a></h5> 
 
-## Bootloader versions
+## Bootloader Versions
 
 |OpenCore|Clover|
 |--------|------|
 |0.8.2|5146| 
 
-## Supported macOS (OS X) versions
+## Supported macOS (OS X) Versions
 - Mavericks
 - Yosemite
 - El Captain
