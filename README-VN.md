@@ -2,7 +2,7 @@
 
 ## ```Chú Ý```
 
-<h5>- Nếu bạn gặp vấn đề khi khởi động vào bộ cài macOS (OS X), bạn có thể dùng <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/OpenCore/EFI.zip">EFI</a> này./h5>
+<h5>- Nếu bạn gặp vấn đề khi khởi động vào bộ cài macOS (OS X), bạn có thể dùng <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/OpenCore/EFI.zip">EFI</a> này.</h5>
 
 ## Phiên Bản Bootloader
 
