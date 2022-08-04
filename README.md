@@ -2,7 +2,7 @@
 
 ## ```Note```
 
-<h5>- If you have problen when booting to macOS (OS X) by OpenCore, you can use this <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">EFI</a>.</h5>
+<h5>- If you have problen when booting to macOS (OS X) by OpenCore, you can use this <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/OpenCore/EFI.zip">EFI</a>.</h5>
 
 <h5>- Nếu bạn là người Việt Nam, hãy đọc <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">bản Tiếng Việt 🇻🇳</a></h5> 
 
