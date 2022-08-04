@@ -1,14 +1,19 @@
 # <div align="center">Dell Vostro 3460 Hackintosh</div> 
+
+## ```Chú Ý:
+
+<h5>- Nếu bạn gặp vấn đề khi khởi động vào bộ cài macOS (OS X), bạn có thể dùng <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">EFI</a> này./h5>
+
 ## Phiên Bản Bootloader
 
 |OpenCore|Clover|
 |--------|------|
 |0.8.2|5146| 
 
-## Các Bản macOS Hỗ Trợ
+## Các Bản macOS (OS X) Hỗ Trợ
 - Mavericks
 - Yosemite
-- El Captain
+- El Capitan
 - Sierra
 - High Sierra
 - Mojave
@@ -80,7 +85,7 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
-# Hướng dẫn cài
+# Hướng Dẫn Cài Đặt Màn Hình
 Sau khi cài xong, mở System Preferences và tìm Displays -> Color, bỏ check `Show profiles for this display only`, sau đó chọn `sRGB IEC61966-2.1`, điều này sẽ làm cho màu sắc của bạn trông đúng hơn (chắc chắn không được hiệu chỉnh hoặc bất cứ điều gì, nhưng không phải là một mớ hỗn độn quá bão hòa).
 
 <div align="center">
@@ -97,7 +102,7 @@ Nếu bạn muốn màn hình của mình giống real Mac thì bạn hãy dùng
   
 </div>
 
-# Dùng EFI thế nào ?
+# Dùng EFI Thế Nào ?
 Tải bộ cài tại [HeaVietNam](https://heavietnam.github.io/image/index.html) (bộ cài recovery online vẫn hơn), sau đó dùng MiniTool or hoặc các phần mềm khác để mount EFI partition, sau đó sử dụng Explorer ++ để truy cập phân vùng EFI và sao chép nó vào thư mục EFI của bạn. Hãy nhớ thêm boot-options, sử dụng [EasyUEFI](https://www.easyuefi.com/index-us.html) hoặc bios.
 # Cảm Ơn
 - [Apple](https://apple.com) vì macOS.

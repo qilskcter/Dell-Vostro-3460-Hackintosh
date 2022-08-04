@@ -1,6 +1,10 @@
 # <div align="center">Dell Vostro 3460 Hackintosh</div> 
 
-<h5>Nếu bạn là người Việt Nam, hãy đọc <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">bản Tiếng Việt 🇻🇳</a></h5> 
+## ```Note```
+
+<h5>- If you have problen when booting to macOS (OS X) by OpenCore, you can use this <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">EFI</a>.</h5>
+
+<h5>- Nếu bạn là người Việt Nam, hãy đọc <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">bản Tiếng Việt 🇻🇳</a></h5> 
 
 ## Bootloader versions
 
@@ -8,7 +12,7 @@
 |--------|------|
 |0.8.2|5146| 
 
-## Supported macOS versions
+## Supported macOS (OS X) versions
 - Mavericks
 - Yosemite
 - El Captain
@@ -37,7 +41,7 @@
   
 </details>
 
-## Laptop specs
+## Laptop Specification
  
 |                     | Specifications| Note |
 | ---------------------------- | ---------------------- |------------------|
@@ -100,7 +104,7 @@ If you want your Display like RealMac, you can use [one-key-hidpi](https://githu
   
 </div>
 
-# How to use this EFI ?
+# How To Use This EFI ?
 You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/image/index.html) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
 # Thanks
 - [Apple](https://apple.com) for macOS.
