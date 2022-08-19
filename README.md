@@ -85,6 +85,8 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
+```Note:``` If Airportitlwm can't load in Catalina and older, you can use this [kext](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/tree/main/Kexts).
+
 # Post-Install
 After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look right (definitely not calibrated or anything but yeah, not an oversaturated mess)
 
