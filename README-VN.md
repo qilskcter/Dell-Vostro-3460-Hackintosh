@@ -80,6 +80,8 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
+```Ghi chú:``` Nếu Airportitlwm không thể khởi động ở Catalina và cũ hơn, hay sử dụng [kext](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/tree/main/Kexts) này.
+
 # Hướng Dẫn Cài Đặt Màn Hình
 Sau khi cài xong, mở System Preferences và tìm Displays -> Color, bỏ check `Show profiles for this display only`, sau đó chọn `sRGB IEC61966-2.1`, điều này sẽ làm cho màu sắc của bạn trông đúng hơn (chắc chắn không được hiệu chỉnh hoặc bất cứ điều gì, nhưng không phải là một mớ hỗn độn quá bão hòa).
 
