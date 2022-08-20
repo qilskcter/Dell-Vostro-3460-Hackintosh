@@ -43,7 +43,7 @@
  
 |                     | Specifications| Note |
 | ---------------------------- | ---------------------- |------------------|
-| ``Chipset``| Intel 7 Series/C210 Series Chipset. |   |
+| ``Chipset``| Intel Panther Point |   |
 | ``CPU``| Intel Core i3-3110M 2.40GHz | Use [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
 | ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 and DDR3L. |
 | ``iGPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111) in Monterey. |
