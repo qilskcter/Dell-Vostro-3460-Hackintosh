@@ -3,7 +3,7 @@
 
 |OpenCore|Clover|
 |--------|------|
-|0.8.2|5146| 
+|0.8.4 Mod|5146| 
 
 ## Các Bản macOS (OS X) Hỗ Trợ
 - Mavericks
