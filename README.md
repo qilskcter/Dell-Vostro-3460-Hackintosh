@@ -8,7 +8,7 @@
 
 |OpenCore|Clover|
 |--------|------|
-|0.8.2|5146| 
+|0.8.4 Mod|5146| 
 
 ## Supported macOS (OS X) Versions
 - Mavericks
