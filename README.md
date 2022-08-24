@@ -77,6 +77,7 @@
 | ``Headphone Jack``|✅|✅|
 | ``Graphics``|✅|✅|
 | ``Battery``|✅|✅|
+| ``Card Reader``|✅|✅|
 | ``Power Management``|✅|✅|
 | ``Multigesture Trackpad``|✅|✅|                                                                          
 | ``Webcam``|✅|✅|
