@@ -50,6 +50,7 @@
 | ``dGPU``| NVIDIA GeForce GT 630M | Only at i5-3210M version. |
 | ``Disk 0``| SSD Lexar NS100 128GB | Dualbooting Windows and macOS. |
 | ``Disk 1``| HDD HGST HTS725050A7E630 500GB | Data saving. |
+| ``Card Reader``| Realtek RTS5129 | Use [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6)|
 | ``Screen``| 14.0" 1366 x 768 |    |
 | ``Ethernet``| Qualcomm Atheros AR8161 | Use [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2). |
 | ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Replace from AR9485) Use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) for Wifi and [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) for Bluetooth. | 
