@@ -10,10 +10,7 @@
 |--------|------|
 |0.8.4 Mod|5146| 
 
-## Supported macOS (OS X) Versions
-- Mavericks
-- Yosemite
-- El Capitan
+## Supported macOS Versions
 - Sierra
 - High Sierra
 - Mojave
