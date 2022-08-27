@@ -772,7 +772,27 @@
 		<array>
 			<dict>
 				<key>Arch</key>
-				<string>x86_64</string>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>System/Library/Extensions/corecapture.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/corecapture</string>
+				<key>Identifier</key>
+				<string>com.apple.driver.corecapture</string>
+				<key>MaxKernel</key>
+				<string>19.99.99</string>
+				<key>MinKernel</key>
+				<string>17.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
 				<key>BundlePath</key>
 				<string>System/Library/Extensions/IO80211Family.kext</string>
 				<key>Comment</key>
@@ -786,7 +806,7 @@
 				<key>MaxKernel</key>
 				<string>19.99.99</string>
 				<key>MinKernel</key>
-				<string></string>
+				<string>17.0.0</string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
@@ -948,7 +968,7 @@
 			<key>BlacklistAppleUpdate</key>
 			<true/>
 			<key>DmgLoading</key>
-			<string>Signed</string>
+			<string>Any</string>
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
