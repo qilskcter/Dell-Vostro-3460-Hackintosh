@@ -48,6 +48,7 @@
 | ``Disk 0``| SSD Lexar NS100 128GB | Dualbooting Windows and macOS. |
 | ``Disk 1``| HDD HGST HTS725050A7E630 500GB | Data saving. |
 | ``Card Reader``| Realtek RTS5129 | Use [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6). |
+| ``Fingerprint`` | Synaptics FP Sensors | Not working in macOS. |
 | ``Screen``| 14.0" 1366 x 768 |    |
 | ``Ethernet``| Qualcomm Atheros AR8161 | Use [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2). |
 | ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Replace from AR9485) Use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) for Wifi and [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) for Bluetooth. | 
@@ -85,6 +86,16 @@
 | ``Hotkeys``|✅|✅|
 
 ```Note:``` If Airportitlwm can't load in Catalina and older, you can use this [kext](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/tree/main/Kexts).
+
+# Boot Arguments
+- When Install:
+
+Using this Boot-args: ```-v keepsyms=1 debug=0x100```
+
+- After Installation:
+
+```revpatch=memtab``` Enable Memory tab in About this Mac when using MacbookPro10,2 SMBIOS with [RestrictEvents](https://github.com/acidanthera/RestrictEvents) kext.
+```-nobiobeta``` Enable [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) kext on unsupported OS versions (10.13-10.15 are supported by default)
 
 # Post-Install
 After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look right (definitely not calibrated or anything but yeah, not an oversaturated mess)

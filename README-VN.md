@@ -43,6 +43,7 @@
 | ``Ổ lưu trữ 0``| SSD Lexar NS100 128GB | Dualboot Windows và macOS. |
 | ``Ổ lưu trữ 1``| HDD HGST HTS725050A7E630 500GB | Dùng lưu dữ liệu. |
 | ``Đầu đọc thẻ``| Realtek RTS5129 | Dùng [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6). |
+| ``Cảm biến vân tay`` | Synaptics FP Sensors | Không hoạt động trên macOS. |
 | ``Màn hình``| 14.0" 1366 x 768 |    |
 | ``Ethernet``| Qualcomm Atheros AR8161 | Dùng [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2). |
 | ``WiFi và Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Thay thế từ AR9485). Dùng [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) cho Wifi và [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) cho Bluetooth. | 
@@ -81,8 +82,18 @@
 
 ```Ghi chú:``` Nếu Airportitlwm không thể khởi động ở Catalina và cũ hơn, hay sử dụng [kext](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/tree/main/Kexts) này.
 
+# Boot Arguments
+- Khi Cài Đặt:
+
+Sử dụng những Boot-arg này: ```-v keepsyms=1 debug=0x100```
+
+- Sau Khi Cài Đặt:
+
+```revpatch=memtab``` Kích hoạt tab Bộ Nhớ khi sử dụng SMBIOS MacbookPro10,2 với kext [RestrictEvents](https://github.com/acidanthera/RestrictEvents).
+```-nobiobeta``` Kích hoạt kext [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) trên những OS không hỗ trợ (hỗ trợ mặc định từ 10.13-10.15)
+
 # Hướng Dẫn Cài Đặt Màn Hình
-Sau khi cài xong, mở System Preferences và tìm Displays -> Color, bỏ check `Show profiles for this display only`, sau đó chọn `sRGB IEC61966-2.1`, điều này sẽ làm cho màu sắc của bạn trông đúng hơn (chắc chắn không được hiệu chỉnh hoặc bất cứ điều gì, nhưng không phải là một mớ hỗn độn quá bão hòa).
+Sau khi cài xong, mở Tùy Chọn Hệ Thống và tìm Màn hình -> Màu Sắc, bỏ chọn `Chỉ hiển thị cấu hình của màn hình này`, sau đó chọn `sRGB IEC61966-2.1`, điều này sẽ làm cho màu sắc của bạn trông đúng hơn (chắc chắn không được hiệu chỉnh hoặc bất cứ điều gì, nhưng không phải là một mớ hỗn độn quá bão hòa).
 
 <div align="center">
   
