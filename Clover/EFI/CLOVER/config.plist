@@ -75,59 +75,6 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
-			<key>Patches</key>
-			<array>
-				<dict>
-					<key>Comment</key>
-					<string>_STA RTC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
-					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>HPET _CRS to XCRS Rename</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>BV9DUlM=</data>
-					<key>Replace</key>
-					<data>BVhDUlM=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>RTC IRQ 8 Patch</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>IgABeQA=</data>
-					<key>Replace</key>
-					<data>IgAAeQA=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q81 to XQ81</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1E4MQ==</data>
-					<key>Replace</key>
-					<data>WFE4MQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q80 to XQ80</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1E4MA==</data>
-					<key>Replace</key>
-					<data>WFE4MA==</data>
-				</dict>
-			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -157,7 +104,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>alcid=14</string>
+		<string></string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -209,33 +156,33 @@
 		<false/>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<dict>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>layout-id</key>
+				<integer>14</integer>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AwBmAQ==</data>
+				<key>backlight-smoother-interval</key>
+				<data>CAAAAA==</data>
+				<key>backlight-smoother-lowerbound</key>
+				<data>MQAAAA==</data>
+				<key>backlight-smoother-steps</key>
+				<data>GQAAAA==</data>
+				<key>backlight-smoother-threshold</key>
+				<data>LAEAAA==</data>
 				<key>device-id</key>
 				<data>UgEAAA==</data>
 				<key>enable-backlight-smoother</key>
 				<data>AQAAAA==</data>
-				<key>backlight-smoother-steps</key>
-				<data>GQAAAA==</data>
-				<key>backlight-smoother-interval</key>
-				<data>CAAAAA==</data>
-				<key>backlight-smoother-threshold</key>
-				<data>LAEAAA==</data>
-				<key>backlight-smoother-lowerbound</key>
-				<data>MQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict>
-				<key>layout-id</key>
-				<integer>14</integer>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -256,6 +203,11 @@
 	<dict>
 		<key>EmbeddedThemeType</key>
 		<string>Dark</string>
+		<key>Hide</key>
+		<array>
+			<string>Legacy HD1</string>
+			<string>Legacy HD2</string>
+		</array>
 		<key>KbdPrevLang</key>
 		<true/>
 		<key>Mouse</key>
@@ -268,12 +220,7 @@
 		<key>ProvideConsoleGop</key>
 		<true/>
 		<key>Scan</key>
-		<dict>
-			<key>Entries</key>
-			<true/>
-			<key>Linux</key>
-			<true/>
-		</dict>
+		<true/>
 		<key>ShowOptimus</key>
 		<true/>
 		<key>Theme</key>
@@ -389,54 +336,30 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>01/18/2022</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>MBA51.88Z.F000.B00.2201181205</string>
-		<key>Board-ID</key>
-		<string>Mac-2E6FAB96566FE58C</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string></string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>MacBookPro10,2</string>
+		<string>MacBookPro11,1</string>
 		<key>ChassisAssetTag</key>
 		<string>Asset Tag#</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0xA</string>
-		<key>EfiVersion</key>
-		<string>426.0.0.0.0</string>
-		<key>ExtendedFirmwareFeatures</key>
-		<string>0x00000000E00DE137</string>
-		<key>ExtendedFirmwareFeaturesMask</key>
-		<string>0x00000000FF1FFF3F</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
-		<key>FirmwareFeatures</key>
-		<string>0xE00DE137</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
-		<key>PlatformFeature</key>
-		<string></string>
 		<key>ProductName</key>
-		<string>MacBookPro10,2</string>
-		<key>SerialNumber</key>
-		<string></string>
-		<key>SmUUID</key>
-		<string></string>
+		<string>MacBookPro11,1</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
