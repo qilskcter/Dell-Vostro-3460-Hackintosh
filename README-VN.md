@@ -90,6 +90,7 @@ Sử dụng những Boot-arg này: ```-v keepsyms=1 debug=0x100```
 - Sau Khi Cài Đặt:
 
 ```revpatch=memtab``` Kích hoạt tab Bộ Nhớ khi sử dụng SMBIOS MacbookPro10,2 với kext [RestrictEvents](https://github.com/acidanthera/RestrictEvents).
+
 ```-nobiobeta``` Kích hoạt kext [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) trên những OS không hỗ trợ (hỗ trợ mặc định từ 10.13-10.15)
 
 # Hướng Dẫn Cài Đặt Màn Hình
