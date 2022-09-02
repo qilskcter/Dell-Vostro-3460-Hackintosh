@@ -95,6 +95,7 @@ Using this Boot-args: ```-v keepsyms=1 debug=0x100```
 - After Installation:
 
 ```revpatch=memtab``` Enable Memory tab in About this Mac when using MacbookPro10,2 SMBIOS with [RestrictEvents](https://github.com/acidanthera/RestrictEvents) kext.
+
 ```-nobiobeta``` Enable [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) kext on unsupported OS versions (10.13-10.15 are supported by default)
 
 # Post-Install
