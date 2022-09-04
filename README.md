@@ -45,7 +45,7 @@
 | ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 and DDR3L. |
 | ``iGPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) by [chris1111](https://github.com/chris1111) in Monterey. |
 | ``dGPU``| NVIDIA GeForce GT 630M | Only at i5-3210M version. |
-| ``Disk 0``| SSD Lexar NS100 128GB | Dualbooting Windows and macOS. |
+| ``Disk 0``| SSD Silicon Power Ace A55 512GB | Dualbooting Windows and macOS. |
 | ``Disk 1``| HDD HGST HTS725050A7E630 500GB | Data saving. |
 | ``Card Reader``| Realtek RTS5129 | Use [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6). |
 | ``Fingerprint`` | Synaptics FP Sensors | Not working in macOS. |
