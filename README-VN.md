@@ -40,7 +40,7 @@
 | ``Bộ nhớ``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 và DDR3L. |
 | ``iGPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) tạo bởi [chris1111](https://github.com/chris1111) trong Monterey. |
 | ``dGPU``| NVIDIA GeForce GT 630M | Chỉ có ở phiên bản i5-3210M. |
-| ``Ổ lưu trữ 0``| SSD 	SSD Silicon Power Ace A55 512GB | Dualboot Windows và macOS. |
+| ``Ổ lưu trữ 0``| SSD Silicon Power Ace A55 512GB | Dualboot Windows và macOS. |
 | ``Ổ lưu trữ 1``| HDD HGST HTS725050A7E630 500GB | Dùng lưu dữ liệu. |
 | ``Đầu đọc thẻ``| Realtek RTS5129 | Dùng [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6). |
 | ``Cảm biến vân tay`` | Synaptics FP Sensors | Không hoạt động trên macOS. |
