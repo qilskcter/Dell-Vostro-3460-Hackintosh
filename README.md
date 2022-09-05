@@ -98,7 +98,7 @@ Using this Boot-args: ```-v keepsyms=1 debug=0x100```
 
 ```-nobiobeta``` Enable [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) kext on unsupported OS versions (10.13-10.15 are supported by default)
 
-# To change CPU Name (OpenCore only): 
+# To change CPU Name (OpenCore only) 
 - Go to ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102``` and add:
 
 |Key|Type|Value|
