@@ -98,8 +98,8 @@ Using this Boot-args: ```-v keepsyms=1 debug=0x100```
 
 ```-nobiobeta``` Enable [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) kext on unsupported OS versions (10.13-10.15 are supported by default)
 
-- OpenCore only:
-To change CPU Name: Go to ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102``` and add:
+# To change CPU Name (OpenCore only): 
+- Go to ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102``` and add:
 
 |Key|Type|Value|
 |---|----|-----|
@@ -107,6 +107,7 @@ To change CPU Name: Go to ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102`
 |revcpu|Number|1|
 |revcpuname|String| ``Your CPU Name`` |
 
+- Go to ```PlatformInfo``` > ```Generic``` and change ```ProcessorType``` value from 0 to 1537.
 
 # Post-Install
 After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look right (definitely not calibrated or anything but yeah, not an oversaturated mess)
