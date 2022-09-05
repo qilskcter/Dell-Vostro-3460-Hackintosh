@@ -40,7 +40,7 @@
 | ``Bộ nhớ``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 và DDR3L. |
 | ``iGPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) tạo bởi [chris1111](https://github.com/chris1111) trong Monterey. |
 | ``dGPU``| NVIDIA GeForce GT 630M | Chỉ có ở phiên bản i5-3210M. |
-| ``Ổ lưu trữ 0``| SSD Lexar NS100 128GB | Dualboot Windows và macOS. |
+| ``Ổ lưu trữ 0``| SSD Silicon Power Ace A55 512GB | Dualboot Windows và macOS. |
 | ``Ổ lưu trữ 1``| HDD HGST HTS725050A7E630 500GB | Dùng lưu dữ liệu. |
 | ``Đầu đọc thẻ``| Realtek RTS5129 | Dùng [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6). |
 | ``Cảm biến vân tay`` | Synaptics FP Sensors | Không hoạt động trên macOS. |
@@ -90,6 +90,7 @@ Sử dụng những Boot-arg này: ```-v keepsyms=1 debug=0x100```
 - Sau Khi Cài Đặt:
 
 ```revpatch=memtab``` Kích hoạt tab Bộ Nhớ khi sử dụng SMBIOS MacbookPro10,2 với kext [RestrictEvents](https://github.com/acidanthera/RestrictEvents).
+
 ```-nobiobeta``` Kích hoạt kext [NoTouchID](https://github.com/al3xtjames/NoTouchID/releases/tag/1.0.3) trên những OS không hỗ trợ (hỗ trợ mặc định từ 10.13-10.15)
 
 # Hướng Dẫn Cài Đặt Màn Hình
