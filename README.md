@@ -85,8 +85,6 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
-```Note:``` If Airportitlwm can't load in Catalina and older, you can use this [kext](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/tree/main/Kexts).
-
 # Boot Arguments
 - When Install:
 
