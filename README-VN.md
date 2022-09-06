@@ -80,8 +80,6 @@
 | ``Ethernet``|✅|✅|
 | ``Hotkeys``|✅|✅|
 
-```Ghi chú:``` Nếu Airportitlwm không thể khởi động ở Catalina và cũ hơn, hay sử dụng [kext](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/tree/main/Kexts) này.
-
 # Boot Arguments
 - Khi Cài Đặt:
 
