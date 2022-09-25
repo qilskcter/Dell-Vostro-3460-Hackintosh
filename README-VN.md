@@ -50,6 +50,7 @@
 | ``Âm thanh``| Conexant Cx20590 | Thêm `alcid=14` trong boot-arg hoặc vào DeviceProperties. |
 | ``Bàn phím``| - | Yêu cầu patch SSDT cho phím tăng giảm độ sáng. |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Dùng [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
+| ``Pin``| 60Wh 6-cell lithium ion | |
 | ``Kích thước``| 30mm x 345.5mm x 244mm |     |
 |``Cân nặng``| 2.23kg |     |
   
