@@ -55,6 +55,7 @@
 | ``Audio``| Conexant Cx20590 | Add `alcid=14` to boot-arg or add layout-id to DeviceProperties. |
 | ``Keyboard``| - | Requied patching SSDT for brightness key. |
 | ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Use [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
+| ``Battery``| 60Wh 6-cell lithium ion | |
 | ``Dimensions``| 30mm x 345.5mm x 244mm |     |
 |``Weight``| 2.23kg |     |
   
