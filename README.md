@@ -16,7 +16,7 @@
 - Mojave
 - Catalina
 - Big Sur (Use SMBIOS ```MacBookPro11,1```)
-- Monterey (OpenCore only)
+- Monterey (Use SMBIOS ```MacBookPro11,4```)
 ## Screenshots
 
 <div align="center">
