@@ -10,8 +10,8 @@
 - High Sierra
 - Mojave
 - Catalina
-- Big Sur (⚠️ Dùng SMBIOS ```MacBookPro11,1```)
-- Monterey (chỉ OpenCore)
+- Big Sur (Dùng SMBIOS ```MacBookPro11,1```)
+- Monterey (Dùng SMBIOS ```MacBookPro11,4```)
 ## Ảnh Chụp Màn Hình
 
 <div align="center">
