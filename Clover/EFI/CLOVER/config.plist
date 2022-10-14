@@ -158,8 +158,6 @@
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
 			<dict>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
 				<integer>14</integer>
 			</dict>
@@ -179,12 +177,12 @@
 				<data>UgEAAA==</data>
 				<key>enable-backlight-smoother</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>AgAAAAAIAAAHBAAA</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
 				<data>AAgAAA==</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>AgAAAAAIAAAHBAAA</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -209,6 +207,7 @@
 		<array>
 			<string>Legacy HD1</string>
 			<string>Legacy HD2</string>
+			<string>Legacy HD3</string>
 		</array>
 		<key>KbdPrevLang</key>
 		<true/>
@@ -223,6 +222,8 @@
 		<true/>
 		<key>Scan</key>
 		<true/>
+		<key>ScreenResolution</key>
+		<string>1366x768</string>
 		<key>ShowOptimus</key>
 		<true/>
 		<key>Theme</key>
