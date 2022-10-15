@@ -9,14 +9,18 @@
 - Sierra
 - High Sierra
 - Mojave
-- Catalina
+- Catalina (Dùng SMBIOS ```MacBookPro10,2```)
 - Big Sur (Dùng SMBIOS ```MacBookPro11,1```)
 - Monterey (Dùng SMBIOS ```MacBookPro11,4```)
+- Ventura (Chỉ OpenCore
+
+```Lưu ý:``` Khi cài đặt macOS Ventura, sử dụng [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases/tag/1.0.0) để bỏ qua yêu cầu hệ thống AVX2.0 và sử dụng OpenCore Legacy Patcher Alpha 0.5.0 để iGPU hoạt động và sử dụng SMBIOS ```MacBookPro14,1```.
+
 ## Ảnh Chụp Màn Hình
 
 <div align="center">
   
-![Screenshot](Screenshots/ScreenShot.png)
+![Screenshot](Screenshots/Ventura.png)
    
 </div>
 <details>
@@ -28,7 +32,8 @@
 ![Screenshot](Screenshots/Mojave.png)
 ![Screenshot](Screenshots/Catalina.png)
 ![Screenshot](Screenshots/BigSur.png)
-  
+![Screenshot](Screenshots/Monterey.png)
+	
 </details>
 
 ## Thông Tin Laptop
