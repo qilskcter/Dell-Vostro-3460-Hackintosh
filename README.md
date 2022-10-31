@@ -17,9 +17,9 @@
 - Catalina (Use SMBIOS ```MacBookPro10,2```)
 - Big Sur (Use SMBIOS ```MacBookPro11,1```)
 - Monterey (Use SMBIOS ```MacBookPro12,1```)
-- Ventura (OpenCore only)
+- Ventura
 
-```Note:``` When install macOS Ventura, using [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases/tag/1.0.0) to bypass AVX2.0 sytem requirement and use OpenCore Legacy Patcher Alpha 0.5.0 to fix iGPU and use ```MacBookPro14,1``` SMBIOS.
+```Note:``` When install macOS Ventura, using [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases) to bypass AVX2.0 sytem requirement and use [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) to fix iGPU and use ```MacBookPro14,1``` SMBIOS.
 
 ## Screenshots
 
