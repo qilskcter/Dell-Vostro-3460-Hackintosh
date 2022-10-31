@@ -12,9 +12,11 @@
 - Catalina (Dùng SMBIOS ```MacBookPro10,2```)
 - Big Sur (Dùng SMBIOS ```MacBookPro11,1```)
 - Monterey (Dùng SMBIOS ```MacBookPro11,4```)
-- Ventura (Chỉ OpenCore
+- Ventura (Dùng SMBIOS ```MacBookPro14.1```)
 
-```Lưu ý:``` Khi cài đặt macOS Ventura, sử dụng [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases/tag/1.0.0) để bỏ qua yêu cầu hệ thống AVX2.0 và sử dụng OpenCore Legacy Patcher Alpha 0.5.0 để iGPU hoạt động và sử dụng SMBIOS ```MacBookPro14,1```.
+```Lưu ý:``` 
+- Khi cài đặt macOS Ventura, sử dụng [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases/tag/1.0.0) để bỏ qua yêu cầu hệ thống AVX2.0
+- Sử dụng [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) để iGPU hoạt động trên macOS Monterey trở lên.
 
 ## Ảnh Chụp Màn Hình
 
@@ -43,7 +45,7 @@
 | ``Chipset``| Intel Panther Point |   |
 | ``CPU``| Intel Core i3-3110M 2.40GHz | Dùng [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
 | ``Bộ nhớ``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 và DDR3L. |
-| ``iGPU``| Intel HD Graphics 4000 | Patch with [Patch-HD4000-Monterey](https://github.com/chris1111/Patch-HD4000-Monterey) tạo bởi [chris1111](https://github.com/chris1111) trong Monterey. |
+| ``iGPU``| Intel HD Graphics 4000 | Với đầy đủ QE/CI (Tăng tốc đồ họa) |
 | ``dGPU``| NVIDIA GeForce GT 630M | Chỉ có ở phiên bản i5-3210M. |
 | ``Ổ lưu trữ 0``| SSD Silicon Power Ace A55 512GB | Dualboot Windows và macOS. |
 | ``Ổ lưu trữ 1``| HDD HGST HTS725050A7E630 500GB | Dùng lưu dữ liệu. |
