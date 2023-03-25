@@ -44,7 +44,7 @@
 | ---------------------------- | ---------------------- |------------------|
 | ``Chipset``| Intel Panther Point |   |
 | ``CPU``| Intel Core i3-3110M 2.40GHz | Dùng [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
-| ``Bộ nhớ``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 và DDR3L. |
+| ``Bộ nhớ``| 8GB DDR3-1600MHz | 2 x 4GB DDR3. |
 | ``iGPU``| Intel HD Graphics 4000 | Với đầy đủ QE/CI (Tăng tốc đồ họa) |
 | ``dGPU``| NVIDIA GeForce GT 630M | Chỉ có ở phiên bản i5-3210M. |
 | ``Ổ lưu trữ 0``| SSD Silicon Power Ace A55 512GB | Dualboot Windows và macOS. |
@@ -97,6 +97,8 @@ Sử dụng những Boot-arg này: ```-v keepsyms=1 debug=0x100```
 
 ```revpatch=memtab``` Kích hoạt tab Bộ Nhớ khi sử dụng SMBIOS MacbookPro10,2 với kext [RestrictEvents](https://github.com/acidanthera/RestrictEvents).
 
+``Note: `` Khi sử dụng với Ventura, thêm Boot-arg ```-amfi_get_out_of_my_way=1 ipc_control_port_options=0``` để sử dụng những ứng dụng như VSCode, Zalo,...
+
 # Thay Đổi Tên CPU (chỉ OpenCore)
 - Đi tới ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102``` và thêm:
 
@@ -117,22 +119,15 @@ Sau khi cài xong, mở Tùy Chọn Hệ Thống và tìm Màn hình -> Màu S�
 
 </div>
 
-Nếu bạn muốn màn hình của mình giống real Mac thì bạn hãy dùng [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) (không khuyến khích)
-
-<div align="center">
-  
-![Screenshot](Screenshots/Display_2.png)
-  
-</div>
 
 # Dùng EFI Thế Nào ?
-Tải bộ cài tại [HeaVietNam](https://heavietnam.github.io/image/index.html) (bộ cài recovery online vẫn hơn), sau đó dùng MiniTool or hoặc các phần mềm khác để mount EFI partition, sau đó sử dụng Explorer ++ để truy cập phân vùng EFI và sao chép nó vào thư mục EFI của bạn. Hãy nhớ thêm boot-options, sử dụng [EasyUEFI](https://www.easyuefi.com/index-us.html) hoặc bios.
+Tải bộ cài tại [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) (bộ cài recovery online vẫn hơn), sau đó dùng MiniTool or hoặc các phần mềm khác để mount EFI partition, sau đó sử dụng Explorer ++ để truy cập phân vùng EFI và sao chép nó vào thư mục EFI của bạn. Hãy nhớ thêm boot-options, sử dụng [EasyUEFI](https://www.easyuefi.com/index-us.html) hoặc bios.
 # Cảm Ơn
 - [Apple](https://apple.com) vì macOS.
 - Acidanthera, SkyrilHD, USBToolBox, etc. vì tất cả các kext.
 - [NLTD2010](https://github.com/NLTD2010) cho EFI của tôi và bản dịch tiếng Việt.
 - [Olarila](https://olarila.com) vì EFI ăn liền (≧▽≦)
 - [khanhmuy](https://github.com/khanhmuy) vì file README của tôi.
-- [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) vì [HeaVietNam](http://heavietnam.ga/) guide.
+- [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733).
 - [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) vì đã giúp tôi fix một số thứ.
 - [kleqing](https://github.com/kleqing) vì đã giúp tôi fix sleep trên Monterey.

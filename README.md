@@ -49,7 +49,7 @@
 | ---------------------------- | ---------------------- |------------------|
 | ``Chipset``| Intel Panther Point |   |
 | ``CPU``| Intel Core i3-3110M 2.40GHz | Use [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
-| ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3 and DDR3L. |
+| ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3. |
 | ``iGPU``| Intel HD Graphics 4000 | With full QE/CI (Graphics accleration). |
 | ``dGPU``| NVIDIA GeForce GT 630M | Only at i5-3210M version. |
 | ``Disk 0``| SSD Silicon Power Ace A55 512GB | Dualbooting Windows and macOS. |
@@ -102,6 +102,7 @@ Using this Boot-args: ```-v keepsyms=1 debug=0x100```
 
 ```revpatch=memtab``` Enable Memory tab in About this Mac when using MacbookPro10,2 SMBIOS with [RestrictEvents](https://github.com/acidanthera/RestrictEvents) kext.
 
+```Note: ``` When using this EFI in Ventura, you must add this Boot-arg ```-amfi_get_out_of_my_way=1 ipc_control_port_options=0``` to using apps like VSCode, Zalo,...
 # To change CPU Name (OpenCore only) 
 - Go to ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102``` and add:
 
@@ -122,21 +123,14 @@ After installation, open System Preferences and go to Displays -> Color, uncheck
 
 </div>
 
-If you want your Display like RealMac, you can use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) (not recommended)
-
-<div align="center">
-  
-![Screenshot](Screenshots/Display_2.png)
-  
-</div>
 
 # How To Use This EFI ?
-You download the macOS installer from [HeaVietNam](https://heavietnam.github.io/image/index.html) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
+You download the macOS installer from [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
 # Thanks
 - [Apple](https://apple.com) for macOS.
 - Acidanthera, SkyrilHD, USBToolBox, etc. for all the kext.
 - [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
 - [khanhmuy](https://github.com/khanhmuy) for my README file.
-- [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733) for [HeaVietNam](http://heavietnam.ga/) guide.
+- [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733).
 - [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) for help me fixed something.
 - [kleqing](https://github.com/kleqing) for help me fixed sleep in Monterey.
