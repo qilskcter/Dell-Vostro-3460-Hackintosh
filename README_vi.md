@@ -81,10 +81,10 @@ Catalina | ```MacBookPro9,2``` |
 - Tải bộ cài macOS tại [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/), sau đó sử dụng [Balena Etcher](https://etcher.balena.io) để tạo usb.
 - Sử dụng [MiniTool](https://www.partitionwizard.com) để mount phân vùng EFI.
 - Sử dụng [Explorer++](https://explorerplusplus.com/download) để truy cập phân vùng EFI.
-- Tải EFI ở  [Release](), và sao chép vào phân vùng EFI trên USB.
+- Tải EFI ở  [Release](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases), và sao chép vào phân vùng EFI trên USB.
 ### Cài Online
 - Làm theo [OpenCore Install Guide của Dortania](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) để tạo macOS Recovery.
-- Tải EFI ở  [Release](), và sao chép vào phân vùng EFI trên USB.
+- Tải EFI ở  [Release](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases), và sao chép vào phân vùng EFI trên USB.
 # Sau cài đặt
 ## Fixing Wifi và Bluetooth
 ### Broadcom

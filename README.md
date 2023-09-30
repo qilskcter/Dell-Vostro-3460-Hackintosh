@@ -81,10 +81,10 @@ Catalina | ```MacBookPro9,2``` |
 - Download the macOS installer from [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/), after that, use [Balena Etcher](https://etcher.balena.io) to flash a .raw file into your USB.
 - Using [MiniTool](https://www.partitionwizard.com) to mount USB's EFI Partition.
 - Using [Explorer++](https://explorerplusplus.com/download) to access EFI Partition.
-- Download my EFI at [Release Page](), and copy it to EFI Partition.
+- Download my EFI at [Release Page](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases), and copy it to EFI Partition.
 ### Online Recovery
 - Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) to create macOS Recovery.
-- Download my EFI at [Release Page](), and copy it to your USB.
+- Download my EFI at [Release Page](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases), and copy it to your USB.
 # Post-Install
 ## Fixing Wifi and Bluetooth
 ### Broadcom

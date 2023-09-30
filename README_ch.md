@@ -81,10 +81,10 @@ Catalina | ```MacBookPro9,2``` |
 - 从[Olarila]下载安装 [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/), 之后, 用 [Balena Etcher](https://etcher.balena.io) 将.raw 文件闪存到你的U盘中。
 - 使用 [MiniTool](https://www.partitionwizard.com) 挂载 USB的EFI 分区。
 - 使用 [Explorer++](https://explorerplusplus.com/download) 访问 EFI 分区。
-- 下载我的EFI在[发布页面](), 并将其复制到 EFI 分区。
+- 下载我的EFI在[发布页面](https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases), 并将其复制到 EFI 分区。
 ### Online Recovery
 - 按照 [Dortania的 OpenCore安装指南](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) 创建 macOS Recovery.
--下载我的EFI在[发布页面] (),并将其复制到你的U盘。
+-下载我的EFI在[发布页面] (https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/releases),并将其复制到你的U盘。
 # 安装之后
 ## 修复无线网络和蓝牙
 ### 博通
