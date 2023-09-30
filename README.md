@@ -1,131 +1,146 @@
-# <div align="center">Dell Vostro 3460 Hackintosh</div> 
+# Dell Vostro 3460 Hackintosh
 
-## ```Note```
+[English](README.md) | [Tiếng Việt](README_vi.md) | [中国人](README_ch.md)
 
-<h5>- Nếu bạn là người Việt Nam, hãy đọc <a href="https://github.com/qilskcter/Dell-Vostro-3460-Hackintosh/blob/main/README-VN.md">bản Tiếng Việt 🇻🇳</a></h5> 
+## Versions
 
-## Bootloader Versions
+### Bootloader
 
 |OpenCore|Clover|
 |--------|------|
-|0.8.4|5146| 
+|0.9.6|5146| 
 
-## Supported macOS Versions
-- Sierra
-- High Sierra
-- Mojave
-- Catalina (Use SMBIOS ```MacBookPro10,2```)
-- Big Sur (Use SMBIOS ```MacBookPro11,1```)
-- Monterey (Use SMBIOS ```MacBookPro12,1```)
-- Ventura (Use SMBIOS ```MacBookPro14,1```)
+### macOS
+
+|Version|SMBios|
+|-------|------|
+|High Siera 
+Mojave  
+Catalina | ```MacBookPro9,2``` |
+|Big Sur| ```MacBookPro11,1``` |
+|Monterey| ```MacBookPro12,1``` |
+|Ventura| ```MacBookPro14,1``` |
+|Sonoma| ```MacBookPro15,1``` |
 
 ```Note:``` 
-- When install macOS Ventura, using [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases) to bypass AVX2.0 sytem requirement.
-- Use [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases) to fix iGPU in Monterey and newer.
+- When install macOS Ventura and Sonoma, using [CryptexFixup](https://github.com/acidanthera/CryptexFixup/releases) to bypass AVX2.0 sytem requirement.
+
 
 ## Screenshots
 
 <div align="center">
   
-![Screenshot](Screenshots/Ventura.png)
+![Screenshot](Screenshots/Sonoma.png)
    
 </div>
-<details>
-		<summary>Other OSes</summary>
-      <br>
- 
-![Screenshot](Screenshots/Mavericks.png)
-![Screenshot](Screenshots/HighSierra.png)
-![Screenshot](Screenshots/Mojave.png)
-![Screenshot](Screenshots/Catalina.png)
-![Screenshot](Screenshots/BigSur.png)
-![Screenshot](Screenshots/Monterey.png)
-  
-</details>
+
 
 ## Laptop Specification
  
-|                     | Specifications| Note |
-| ---------------------------- | ---------------------- |------------------|
-| ``Chipset``| Intel Panther Point |   |
-| ``CPU``| Intel Core i3-3110M 2.40GHz | Use [HFSPlusLegacy.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlusLegacy.efi) |
-| ``Memory``| 8GB DDR3-1600MHz | 2 x 4GB DDR3. |
-| ``iGPU``| Intel HD Graphics 4000 | With full QE/CI (Graphics accleration). |
-| ``dGPU``| NVIDIA GeForce GT 630M | Only at i5-3210M version. |
-| ``Disk 0``| SSD Silicon Power Ace A55 512GB | Dualbooting Windows and macOS. |
-| ``Disk 1``| HDD HGST HTS725050A7E630 500GB | Data saving. |
-| ``Card Reader``| Realtek RTS5129 | Use [RealtekCardReader](https://github.com/0xFireWolf/RealtekCardReader/releases/tag/v0.9.6). |
-| ``Fingerprint`` | Synaptics FP Sensors | Not working in macOS, disable in BIOS. |
-| ``Screen``| 14.0" 1366 x 768 |    |
-| ``Ethernet``| Qualcomm Atheros AR8161 | Use [AtherosE2200Ethernet](https://github.com/Mieze/AtherosE2200Ethernet/releases/tag/2.2.2). |
-| ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 | (Replace from AR9485) Use [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases) for Wifi and [IntelBluetoothFirmware](https://openintelwireless.github.io/IntelBluetoothFirmware/) for Bluetooth. | 
-| ``Audio``| Conexant Cx20590 | Add `alcid=14` to boot-arg or add layout-id to DeviceProperties. |
-| ``Keyboard``| - | Requied patching SSDT for brightness key. |
-| ``Touchpad``| Dell Touchpad (ALPS, PS/2) | Use [VoodooPS2-ALPS](https://github.com/SkyrilHD/VoodooPS2-ALPS/releases/tag/1.0.7). |
-| ``Battery``| 60Wh 6-cell lithium ion | |
-| ``Dimensions``| 30mm x 345.5mm x 244mm |     |
-|``Weight``| 2.23kg |     |
+|                     | Specifications|
+| ---------------------------- | ---------------------- |
+| ``Chipset``| Intel Panther Point |
+| ``CPU``| Intel Core i3-3110M / i5-3210M / i7-3612QM | 
+| ``Memory``| 8GB DDR3-1600MHz |
+| ``iGPU``| Intel HD Graphics 4000 | 
+| ``dGPU``| NVIDIA GeForce GT 630M | 
+| ``Storage``| 2,5" SATA DISK | 
+| ``Card Reader``| Realtek RTS5129 | 
+| ``Fingerprint`` | Synaptics FP Sensors |
+| ``Screen``| 14.0" 1366 x 768 |
+| ``Ethernet``| Qualcomm Atheros AR8161 |
+| ``WiFi and Bluetooth``| Intel® Dual Band Wireless-AC 7260 <br> Broadcom BCM94352HMB |
+| ``Audio``| Conexant Cx20590 | 
+| ``Keyboard``| - | 
+| ``Touchpad``| Dell Touchpad (ALPS, PS/2) |
+| ``Battery``| 48Wh 6-cell lithium ion |
+| ``Dimensions``| 30mm x 345.5mm x 244mm |
+| ``Weight``| 2.23kg |
   
-<div align="center">
-  
-![Screenshot](Screenshots/specs.png)
-  
-</div>
+## What Working ?
 
-## Features
+- [x] Wifi and Bluetooth
+- [x] Audio
+- [x] Keyboard and Trackpad
+- [x] Headphone Jack
+- [x] Graphics
+- [x] Battery
+- [x] Card Reader
+- [x] Power Management
+- [x] Multigesture Trackpad  
+- [x] Webcam
+- [x] USB Ports
+- [x] Facetime and iMessage
+- [x] Sleep
+- [x] Ethernet
+- [x] Hotkeys
 
-
-|                               | OpenCore             | Clover|
-| ----------------------------- | -------------------- | ------------------|
-| ``Wifi and Bluetooth``|✅|✅|
-| ``Audio``|✅|✅|
-| ``Keyboard and Trackpad``|✅|✅|
-| ``Headphone Jack``|✅|✅|
-| ``Graphics``|✅|✅|
-| ``Battery``|✅|✅|
-| ``Card Reader``|✅|✅|
-| ``Power Management``|✅|✅|
-| ``Multigesture Trackpad``|✅|✅|                                                                          
-| ``Webcam``|✅|✅|
-| ``USB Port``|✅|✅|
-| ``Facetime and iMessage``|✅|✅|
-| ``Sleep``|✅|✅|
-| ``Ethernet``|✅|✅|
-| ``Hotkeys``|✅|✅|
-
-# Boot Arguments
-- When Install:
-
-Using this Boot-args: ```-v keepsyms=1 debug=0x100```
-
-- After Installation:
-
-```revpatch=memtab``` Enable Memory tab in About this Mac when using MacbookPro10,2 SMBIOS with [RestrictEvents](https://github.com/acidanthera/RestrictEvents) kext.
-
-```Note: ``` When using this EFI in Ventura, you must add this Boot-arg ```-amfi_get_out_of_my_way=1 ipc_control_port_options=0``` to using apps like VSCode, Zalo,...
-# To change CPU Name (OpenCore only) 
-- Go to ```NVRAM``` > ```4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102``` and add:
-
-|Key|Type|Value|
-|---|----|-----|
-|revpatch|String|cpuname|
-|revcpu|Number|1|
-|revcpuname|String| ``Your CPU Name`` |
-
-- Go to ```PlatformInfo``` > ```Generic``` and change ```ProcessorType``` value from 0 to 1537.
-
+# Installing
+## Download macOS Installer
+### Offline Installer
+- Download the macOS installer from [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/), after that, use [Balena Etcher](https://etcher.balena.io) to flash a .raw file into your USB.
+- Using [MiniTool](https://www.partitionwizard.com) to mount USB's EFI Partition.
+- Using [Explorer++](https://explorerplusplus.com/download) to access EFI Partition.
+- Download my EFI at [Release Page](), and copy it to EFI Partition.
+### Online Recovery
+- Follow [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/windows-install.html) to create macOS Recovery.
+- Download my EFI at [Release Page](), and copy it to your USB.
 # Post-Install
-After installation, open System Preferences and go to Displays -> Color, uncheck `Show profiles for this display only`, then select `sRGB IEC61966-2.1`, this will make your colors look right (definitely not calibrated or anything but yeah, not an oversaturated mess)
+## Fixing Wifi and Bluetooth
+### Broadcom
+``Wifi``
+- Download [AirportBrcmFiup](https://github.com/acidanthera/AirportBrcmFixup/releases) and copy ``AirportBrcmFixup.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+-  Reboot and enjoy.
 
-<div align="center">
-  
-![Screenshot](Screenshots/Display.png)
+```Note: ```
+- When using kext AirportBrcmFixup in macOS Big Sur and newer, you need to remove the ```AirPortBrcm4360_Injector``` kext plugin
 
-</div>
+![Fix Wifi](Screenshots/Fix_wifi.png)
+
+``Bluetooth``
+
+- Download [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases).
+- Using these kexts base-in your macOS version and copy it 
+
+```Monterey and Ventura```
+
+![Fix Bluetooth](Screenshots/Blt_Ven.png)
+
+```Catalina and Big Sur```
+
+![Fix Bluetooth](Screenshots/Blt_Cata.png)
+
+```High Sierra and Mojave```
+
+![Fix Bluetooth](Screenshots/Blt_HS.png)
+
+### Intel
+``Wifi``
+
+```Using Itlwm```
+- Download [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), copy ``Itlwm.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Reboot your system and install HeliPort.app to access networks by drag and drop into Application Folder.
+
+![HeliPort](Screenshots/HeliPort.png)
+
+```Using AirportItlwm```
+
+- Download [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), copy ``AirportItlwm.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Reboot and enjoy.
+
+``Bluetooth``
+
+```Monterey and Ventura```
+
+- Download [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases).
+- In BrcmPatchRAM folder, use only ``BluetoolFixup.kext`` and copy  to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- In IntelBluetoothFirmware folder, remove ``IntelBluetoothFirmwareInjector.kext`` and copy  to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+
+```Big Sur and Older```
+
+- Download [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) and copy all kext inside to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
 
 
-# How To Use This EFI ?
-You download the macOS installer from [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/) (although the online recovery method is still better), then use MiniTool or other software to mount the EFI partition, then use Explorer++ to access the EFI partition and copy it to your EFI folder. Remember to add the entry to your firmware afterwards, using [EasyUEFI](https://www.easyuefi.com/index-us.html) or your firmware's built-in boot configurator.
 # Thanks
 - [Apple](https://apple.com) for macOS.
 - Acidanthera, SkyrilHD, USBToolBox, etc. for all the kext.
