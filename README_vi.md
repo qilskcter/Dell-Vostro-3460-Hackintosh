@@ -89,7 +89,7 @@ Catalina | ```MacBookPro9,2``` |
 ## Fixing Wifi và Bluetooth
 ### Broadcom
 ``Wifi``
-- Tải [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases) và sao chép ``AirportBrcmFixup.kext`` vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plst) hoặc ```\EFI\CLOVER\Kext\Other```.
+- Tải [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup/releases) và sao chép ``AirportBrcmFixup.kext`` vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plist) hoặc ```\EFI\CLOVER\Kext\Other```.
 -  Khởi động lại và tận hưởng.
 
 ```Note: ```
@@ -118,14 +118,14 @@ Catalina | ```MacBookPro9,2``` |
 ``Wifi``
 
 ```Sử dụng Itlwm```
-- Tải [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) và [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), sao chép ``Itlwm.kext`` vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plst) hoặc ```\EFI\CLOVER\Kext\Other```.
+- Tải [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) và [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), sao chép ``Itlwm.kext`` vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plist) hoặc ```\EFI\CLOVER\Kext\Other```.
 - Khởi động lại máy và cài đặt HeliPort.app để sử dụng mạng.
 
 ![HeliPort](Screenshots/HeliPort.png)
 
 ```Sử dụng AirportItlwm```
 
-- Tải [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), sao chép ``AirportItlwm.kext`` vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Tải [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), sao chép ``AirportItlwm.kext`` vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plist) or ```\EFI\CLOVER\Kext\Other```.
 - Khởi động lại và tận hưởng.
 
 ``Bluetooth``
@@ -133,12 +133,12 @@ Catalina | ```MacBookPro9,2``` |
 ```Monterey and Ventura```
 
 - Tải [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases).
-- Trong thư mục BrcmPatchRAM, chỉ sử dụng ``BluetoolFixup.kext`` và sao chép vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plst) hoặc ```\EFI\CLOVER\Kext\Other```.
-- Trong thư mục IntelBluetoothFirmware, xóa ``IntelBluetoothFirmwareInjector.kext`` và sao chép vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plst) hoặc ```\EFI\CLOVER\Kext\Other```.
+- Trong thư mục BrcmPatchRAM, chỉ sử dụng ``BluetoolFixup.kext`` và sao chép vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plist) hoặc ```\EFI\CLOVER\Kext\Other```.
+- Trong thư mục IntelBluetoothFirmware, xóa ``IntelBluetoothFirmwareInjector.kext`` và sao chép vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plist) hoặc ```\EFI\CLOVER\Kext\Other```.
 
 ```Big Sur và cũ hơn```
 
-- Tải [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) và sao chép tất cả các kext trong đó vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plst) hoặc ```\EFI\CLOVER\Kext\Other```.
+- Tải [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) và sao chép tất cả các kext trong đó vào ```\EFI\OC\Kext``` (Nhớ thêm nó vào trong config.plist) hoặc ```\EFI\CLOVER\Kext\Other```.
 
 
 
