@@ -89,7 +89,7 @@ Catalina | ```MacBookPro9,2``` |
 ## Fixing Wifi and Bluetooth
 ### Broadcom
 ``Wifi``
-- Download [AirportBrcmFiup](https://github.com/acidanthera/AirportBrcmFixup/releases) and copy ``AirportBrcmFixup.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Download [AirportBrcmFiup](https://github.com/acidanthera/AirportBrcmFixup/releases) and copy ``AirportBrcmFixup.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plist) or ```\EFI\CLOVER\Kext\Other```.
 -  Reboot and enjoy.
 
 ```Note: ```
@@ -118,14 +118,14 @@ Catalina | ```MacBookPro9,2``` |
 ``Wifi``
 
 ```Using Itlwm```
-- Download [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), copy ``Itlwm.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Download [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) and [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), copy ``Itlwm.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plist) or ```\EFI\CLOVER\Kext\Other```.
 - Reboot your system and install HeliPort.app to access networks by drag and drop into Application Folder.
 
 ![HeliPort](Screenshots/HeliPort.png)
 
 ```Using AirportItlwm```
 
-- Download [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), copy ``AirportItlwm.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Download [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), copy ``AirportItlwm.kext`` to ```\EFI\OC\Kext``` (Remember to add it in config.plist) or ```\EFI\CLOVER\Kext\Other```.
 - Reboot and enjoy.
 
 ``Bluetooth``
@@ -133,12 +133,12 @@ Catalina | ```MacBookPro9,2``` |
 ```Monterey and Ventura```
 
 - Download [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases) and [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases).
-- In BrcmPatchRAM folder, use only ``BluetoolFixup.kext`` and copy  to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
-- In IntelBluetoothFirmware folder, remove ``IntelBluetoothFirmwareInjector.kext`` and copy  to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- In BrcmPatchRAM folder, use only ``BluetoolFixup.kext`` and copy  to ```\EFI\OC\Kext``` (Remember to add it in config.plist) or ```\EFI\CLOVER\Kext\Other```.
+- In IntelBluetoothFirmware folder, remove ``IntelBluetoothFirmwareInjector.kext`` and copy  to ```\EFI\OC\Kext``` (Remember to add it in config.plist) or ```\EFI\CLOVER\Kext\Other```.
 
 ```Big Sur and Older```
 
-- Download [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) and copy all kext inside to ```\EFI\OC\Kext``` (Remember to add it in config.plst) or ```\EFI\CLOVER\Kext\Other```.
+- Download [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) and copy all kext inside to ```\EFI\OC\Kext``` (Remember to add it in config.plist) or ```\EFI\CLOVER\Kext\Other```.
 
 
 # Thanks
