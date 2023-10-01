@@ -61,7 +61,7 @@ Catalina | ```MacBookPro9,2``` |
 
 - [x] 无线网络和蓝牙
 - [x] 音频
-- [x]键盘和触摸板
+- [x] 键盘和触摸板
 - [x] 耳机插口
 - [x] 显卡
 - [x] 电池
@@ -77,7 +77,7 @@ Catalina | ```MacBookPro9,2``` |
 
 # 安装
 ## 下载 macOS 安装程序
-###离线安装
+### 离线安装
 - 从[Olarila]下载安装 [Olarila](https://www.olarila.com/topic/6278-olarila-vanilla-images-macos-installer/), 之后, 用 [Balena Etcher](https://etcher.balena.io) 将.raw 文件闪存到你的U盘中。
 - 使用 [MiniTool](https://www.partitionwizard.com) 挂载 USB的EFI 分区。
 - 使用 [Explorer++](https://explorerplusplus.com/download) 访问 EFI 分区。
