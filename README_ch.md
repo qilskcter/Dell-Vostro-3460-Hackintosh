@@ -89,7 +89,7 @@ Catalina | ```MacBookPro9,2``` |
 ## 修复无线网络和蓝牙
 ### 博通
 ``Wifi``
-- 下载 [AirportBrcmFiup](https://github.com/acidanthera/AirportBrcmFixup/releases) 并将 ``AirportBrcmFixup.kext`` 复制到 ```\EFI\OC\Kext文件夹中``` (记住将其添加到 config.plst文件中) 或者复制到```\EFI\CLOVER\Kext\Other文件夹中```.
+- 下载 [AirportBrcmFiup](https://github.com/acidanthera/AirportBrcmFixup/releases) 并将 ``AirportBrcmFixup.kext`` 复制到 ```\EFI\OC\Kext文件夹中``` (记住将其添加到 config.plist文件中) 或者复制到```\EFI\CLOVER\Kext\Other文件夹中```.
 -  重启电脑。
 
 ```注意: ```
@@ -118,14 +118,14 @@ Catalina | ```MacBookPro9,2``` |
 ``Wifi``
 
 ```使用 Itlwm```
-- 下载 [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) 和 [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), 拷贝 ``Itlwm.kext`` 到 ```\EFI\OC\Kext``` (记得将其添加到config.plst中) 或 ```\EFI\CLOVER\Kext\Other```.
+- 下载 [Itlwm](https://github.com/OpenIntelWireless/itlwm/releases) 和 [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases), 拷贝 ``Itlwm.kext`` 到 ```\EFI\OC\Kext``` (记得将其添加到config.plist中) 或 ```\EFI\CLOVER\Kext\Other```.
 - 重新启动系统并安装 HeliPort.app 以通过拖放到应用程序文件夹中来访问网络。
 
 ![HeliPort](Screenshots/HeliPort.png)
 
 ```使用AirportItlwm```
 
-- 下载 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), 拷贝 ``AirportItlwm.kext`` 到 ```\EFI\OC\Kext``` (记得将其添加到config.plst中)或 ```\EFI\CLOVER\Kext\Other```.
+- 下载 [AirportItlwm](https://github.com/OpenIntelWireless/itlwm/releases), 拷贝 ``AirportItlwm.kext`` 到 ```\EFI\OC\Kext``` (记得将其添加到config.plist中)或 ```\EFI\CLOVER\Kext\Other```.
 -重启电脑。
 
 ``Bluetooth``
@@ -133,12 +133,12 @@ Catalina | ```MacBookPro9,2``` |
 ```Monterey 和 Ventura```
 
 - 下载 [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM/releases) 和 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases).
-- 在BrcmPatchRAM 文件夹中，仅使用 ``BluetoolFixup.kext`` 并复制到 ```\EFI\OC\Kext``` (记住将其添加到config.plst中) 或 ```\EFI\CLOVER\Kext\Other```.
-- 在 IntelBluetoothFirmware 文件夹中, 删除 ``IntelBluetoothFirmwareInjector.kext`` 并复制到 ```\EFI\OC\Kext``` (记得将其添加到config.plst中) 或 ```\EFI\CLOVER\Kext\Other```.
+- 在BrcmPatchRAM 文件夹中，仅使用 ``BluetoolFixup.kext`` 并复制到 ```\EFI\OC\Kext``` (记住将其添加到config.plist中) 或 ```\EFI\CLOVER\Kext\Other```.
+- 在 IntelBluetoothFirmware 文件夹中, 删除 ``IntelBluetoothFirmwareInjector.kext`` 并复制到 ```\EFI\OC\Kext``` (记得将其添加到config.plist中) 或 ```\EFI\CLOVER\Kext\Other```.
 
 ```大苏尔及更老的版本```
 
-- 下载 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) 并将里面的所有 kext 复制到 ```\EFI\OC\Kext``` (Remember to add it in config.plst) 或 ```\EFI\CLOVER\Kext\Other```.
+- 下载 [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) 并将里面的所有 kext 复制到 ```\EFI\OC\Kext``` (记住将其添加到config.plist中) 或 ```\EFI\CLOVER\Kext\Other```.
 
 # 谢谢
 - [Apple](https://apple.com) 提供的 macOS.
