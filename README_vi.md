@@ -62,7 +62,7 @@ Catalina | ```MacBookPro9,2``` |
 - [x] Wifi và Bluetooth
 - [x] Âm thanh
 - [x] Bàn phím và Trackpad
-- [x] Jack 5tr <(")
+- [x] Jack 5 củ <(")
 - [x] Card đồ họa
 - [x] Pin
 - [x] Đầu đọc thẻ
@@ -143,10 +143,10 @@ Catalina | ```MacBookPro9,2``` |
 
 
 # Cảm ơn
-- [Apple](https://apple.com) for macOS.
-- Acidanthera, SkyrilHD, USBToolBox, etc. for all the kext.
-- [NLTD2010](https://github.com/NLTD2010) and [Olarila](https://olarila.com) for my EFI folders.
-- [khanhmuy](https://github.com/khanhmuy) for my README file.
+- [Apple](https://apple.com) vì macOS.
+- Acidanthera, SkyrilHD, USBToolBox, etc. cho tất cả những kext tôi dùng.
+- [NLTD2010](https://github.com/NLTD2010) và [Olarila](https://olarila.com) cho thư mục EFI của tôi.
+- [khanhmuy](https://github.com/khanhmuy) cho file README này.
 - [Võ Nguyễn HoangLong](https://www.facebook.com/profile.php?id=100070274020733).
-- [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) for help me fixed something.
-- [kleqing](https://github.com/kleqing) for help me fixed sleep in Monterey.
+- [Stijn Rombouts](https://www.facebook.com/stijn.rombouts2) vì đã giúp tôi sửa lỗi một số thứ.
+- [kleqing](https://github.com/kleqing) đã giúp tôi fix các vấn đề về sleep trên Monterey.
